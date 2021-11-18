@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "9sZJdo1oEmB72e+0P+SOUTWUSqOjzvkG6L1Xbs9362ySpJWcBIWWbW16IhrkWV4dNo+4AoplL0x+r9DhzkadIw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mkare_wyte20y\\Revature\\KarenM\\C#challanges\\3_DataTypeAndVariables\\3_DataTypeAndVariablesChallenge-StudentCopy\\3_DataTypeAndVariablesChallenge.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mkare_wyte20y\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
+  "logs": []
+}

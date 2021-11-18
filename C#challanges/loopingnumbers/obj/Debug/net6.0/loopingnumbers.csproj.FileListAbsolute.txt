@@ -1,0 +1,15 @@
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingnumbers\bin\Debug\net6.0\loopingnumbers.exe
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingnumbers\bin\Debug\net6.0\loopingnumbers.deps.json
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingnumbers\bin\Debug\net6.0\loopingnumbers.runtimeconfig.json
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingnumbers\bin\Debug\net6.0\loopingnumbers.dll
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingnumbers\bin\Debug\net6.0\ref\loopingnumbers.dll
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingnumbers\bin\Debug\net6.0\loopingnumbers.pdb
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingnumbers\obj\Debug\net6.0\loopingnumbers.csproj.AssemblyReference.cache
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingnumbers\obj\Debug\net6.0\loopingnumbers.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingnumbers\obj\Debug\net6.0\loopingnumbers.AssemblyInfoInputs.cache
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingnumbers\obj\Debug\net6.0\loopingnumbers.AssemblyInfo.cs
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingnumbers\obj\Debug\net6.0\loopingnumbers.csproj.CoreCompileInputs.cache
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingnumbers\obj\Debug\net6.0\loopingnumbers.dll
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingnumbers\obj\Debug\net6.0\ref\loopingnumbers.dll
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingnumbers\obj\Debug\net6.0\loopingnumbers.pdb
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingnumbers\obj\Debug\net6.0\loopingnumbers.genruntimeconfig.cache

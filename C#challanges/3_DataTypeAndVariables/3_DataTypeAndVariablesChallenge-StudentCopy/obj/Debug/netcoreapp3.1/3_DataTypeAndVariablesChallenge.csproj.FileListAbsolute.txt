@@ -1,0 +1,14 @@
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\3_DataTypeAndVariables\3_DataTypeAndVariablesChallenge-StudentCopy\obj\Debug\netcoreapp3.1\3_DataTypeAndVariablesChallenge.csproj.AssemblyReference.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\3_DataTypeAndVariables\3_DataTypeAndVariablesChallenge-StudentCopy\obj\Debug\netcoreapp3.1\3_DataTypeAndVariablesChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\3_DataTypeAndVariables\3_DataTypeAndVariablesChallenge-StudentCopy\obj\Debug\netcoreapp3.1\3_DataTypeAndVariablesChallenge.AssemblyInfoInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\3_DataTypeAndVariables\3_DataTypeAndVariablesChallenge-StudentCopy\obj\Debug\netcoreapp3.1\3_DataTypeAndVariablesChallenge.AssemblyInfo.cs
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\3_DataTypeAndVariables\3_DataTypeAndVariablesChallenge-StudentCopy\obj\Debug\netcoreapp3.1\3_DataTypeAndVariablesChallenge.csproj.CoreCompileInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\3_DataTypeAndVariables\3_DataTypeAndVariablesChallenge-StudentCopy\bin\Debug\netcoreapp3.1\3_DataTypeAndVariablesChallenge.exe
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\3_DataTypeAndVariables\3_DataTypeAndVariablesChallenge-StudentCopy\bin\Debug\netcoreapp3.1\3_DataTypeAndVariablesChallenge.deps.json
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\3_DataTypeAndVariables\3_DataTypeAndVariablesChallenge-StudentCopy\bin\Debug\netcoreapp3.1\3_DataTypeAndVariablesChallenge.runtimeconfig.json
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\3_DataTypeAndVariables\3_DataTypeAndVariablesChallenge-StudentCopy\bin\Debug\netcoreapp3.1\3_DataTypeAndVariablesChallenge.runtimeconfig.dev.json
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\3_DataTypeAndVariables\3_DataTypeAndVariablesChallenge-StudentCopy\bin\Debug\netcoreapp3.1\3_DataTypeAndVariablesChallenge.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\3_DataTypeAndVariables\3_DataTypeAndVariablesChallenge-StudentCopy\bin\Debug\netcoreapp3.1\3_DataTypeAndVariablesChallenge.pdb
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\3_DataTypeAndVariables\3_DataTypeAndVariablesChallenge-StudentCopy\obj\Debug\netcoreapp3.1\3_DataTypeAndVariablesChallenge.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\3_DataTypeAndVariables\3_DataTypeAndVariablesChallenge-StudentCopy\obj\Debug\netcoreapp3.1\3_DataTypeAndVariablesChallenge.pdb
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\3_DataTypeAndVariables\3_DataTypeAndVariablesChallenge-StudentCopy\obj\Debug\netcoreapp3.1\3_DataTypeAndVariablesChallenge.genruntimeconfig.cache

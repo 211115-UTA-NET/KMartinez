@@ -1,0 +1,15 @@
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingandskipping\obj\Debug\net6.0\loopingandskipping.csproj.AssemblyReference.cache
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingandskipping\obj\Debug\net6.0\loopingandskipping.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingandskipping\obj\Debug\net6.0\loopingandskipping.AssemblyInfoInputs.cache
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingandskipping\obj\Debug\net6.0\loopingandskipping.AssemblyInfo.cs
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingandskipping\obj\Debug\net6.0\loopingandskipping.csproj.CoreCompileInputs.cache
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingandskipping\bin\Debug\net6.0\loopingandskipping.exe
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingandskipping\bin\Debug\net6.0\loopingandskipping.deps.json
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingandskipping\bin\Debug\net6.0\loopingandskipping.runtimeconfig.json
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingandskipping\bin\Debug\net6.0\loopingandskipping.dll
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingandskipping\bin\Debug\net6.0\ref\loopingandskipping.dll
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingandskipping\bin\Debug\net6.0\loopingandskipping.pdb
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingandskipping\obj\Debug\net6.0\loopingandskipping.dll
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingandskipping\obj\Debug\net6.0\ref\loopingandskipping.dll
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingandskipping\obj\Debug\net6.0\loopingandskipping.pdb
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\loopingandskipping\obj\Debug\net6.0\loopingandskipping.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\Personalize\bin\Debug\net6.0\Personalize.exe
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\Personalize\bin\Debug\net6.0\Personalize.deps.json
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\Personalize\bin\Debug\net6.0\Personalize.runtimeconfig.json
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\Personalize\bin\Debug\net6.0\Personalize.dll
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\Personalize\bin\Debug\net6.0\ref\Personalize.dll
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\Personalize\bin\Debug\net6.0\Personalize.pdb
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\Personalize\obj\Debug\net6.0\Personalize.csproj.AssemblyReference.cache
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\Personalize\obj\Debug\net6.0\Personalize.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\Personalize\obj\Debug\net6.0\Personalize.AssemblyInfoInputs.cache
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\Personalize\obj\Debug\net6.0\Personalize.AssemblyInfo.cs
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\Personalize\obj\Debug\net6.0\Personalize.csproj.CoreCompileInputs.cache
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\Personalize\obj\Debug\net6.0\Personalize.dll
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\Personalize\obj\Debug\net6.0\ref\Personalize.dll
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\Personalize\obj\Debug\net6.0\Personalize.pdb
+C:\Users\mkare_wyte20y\Revature\wk1\KarenM\C#challanges\Personalize\obj\Debug\net6.0\Personalize.genruntimeconfig.cache
