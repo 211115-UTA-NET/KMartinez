@@ -38,3 +38,17 @@ C:/Users/MarkC/OneDrive - revature.com/LOCAL_BatchTrainingDocsAndTips/CsharpTuto
 /run/media/richard/Storage-1/Revature/dotnet/211115-dotnet/V3/DotnetCurriculumCodingChallenges/1_StringManipulation/1_StringManipulationChallenge - StudentCopy/StringManipulationChallenge/obj/Debug/netcoreapp3.1/StringManipulationChallenge.dll
 /run/media/richard/Storage-1/Revature/dotnet/211115-dotnet/V3/DotnetCurriculumCodingChallenges/1_StringManipulation/1_StringManipulationChallenge - StudentCopy/StringManipulationChallenge/obj/Debug/netcoreapp3.1/StringManipulationChallenge.pdb
 /run/media/richard/Storage-1/Revature/dotnet/211115-dotnet/V3/DotnetCurriculumCodingChallenges/1_StringManipulation/1_StringManipulationChallenge - StudentCopy/StringManipulationChallenge/obj/Debug/netcoreapp3.1/StringManipulationChallenge.genruntimeconfig.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\1_StringManipulation\StringManipulationChallenge\bin\Debug\netcoreapp3.1\StringManipulationChallenge.exe
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\1_StringManipulation\StringManipulationChallenge\bin\Debug\netcoreapp3.1\StringManipulationChallenge.deps.json
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\1_StringManipulation\StringManipulationChallenge\bin\Debug\netcoreapp3.1\StringManipulationChallenge.runtimeconfig.json
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\1_StringManipulation\StringManipulationChallenge\bin\Debug\netcoreapp3.1\StringManipulationChallenge.runtimeconfig.dev.json
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\1_StringManipulation\StringManipulationChallenge\bin\Debug\netcoreapp3.1\StringManipulationChallenge.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\1_StringManipulation\StringManipulationChallenge\bin\Debug\netcoreapp3.1\StringManipulationChallenge.pdb
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\1_StringManipulation\StringManipulationChallenge\obj\Debug\netcoreapp3.1\StringManipulationChallenge.csproj.AssemblyReference.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\1_StringManipulation\StringManipulationChallenge\obj\Debug\netcoreapp3.1\StringManipulationChallenge.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\1_StringManipulation\StringManipulationChallenge\obj\Debug\netcoreapp3.1\StringManipulationChallenge.AssemblyInfoInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\1_StringManipulation\StringManipulationChallenge\obj\Debug\netcoreapp3.1\StringManipulationChallenge.AssemblyInfo.cs
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\1_StringManipulation\StringManipulationChallenge\obj\Debug\netcoreapp3.1\StringManipulationChallenge.csproj.CoreCompileInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\1_StringManipulation\StringManipulationChallenge\obj\Debug\netcoreapp3.1\StringManipulationChallenge.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\1_StringManipulation\StringManipulationChallenge\obj\Debug\netcoreapp3.1\StringManipulationChallenge.pdb
+C:\Users\mkare_wyte20y\Revature\KarenM\C#challanges\1_StringManipulation\StringManipulationChallenge\obj\Debug\netcoreapp3.1\StringManipulationChallenge.genruntimeconfig.cache
