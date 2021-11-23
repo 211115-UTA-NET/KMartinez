@@ -1,0 +1,15 @@
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\DataStruSet\bin\Debug\net6.0\PracticeFolder.exe
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\DataStruSet\bin\Debug\net6.0\PracticeFolder.deps.json
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\DataStruSet\bin\Debug\net6.0\PracticeFolder.runtimeconfig.json
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\DataStruSet\bin\Debug\net6.0\PracticeFolder.dll
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\DataStruSet\bin\Debug\net6.0\ref\PracticeFolder.dll
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\DataStruSet\bin\Debug\net6.0\PracticeFolder.pdb
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\DataStruSet\obj\Debug\net6.0\PracticeFolder.csproj.AssemblyReference.cache
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\DataStruSet\obj\Debug\net6.0\PracticeFolder.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\DataStruSet\obj\Debug\net6.0\PracticeFolder.AssemblyInfoInputs.cache
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\DataStruSet\obj\Debug\net6.0\PracticeFolder.AssemblyInfo.cs
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\DataStruSet\obj\Debug\net6.0\PracticeFolder.csproj.CoreCompileInputs.cache
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\DataStruSet\obj\Debug\net6.0\PracticeFolder.dll
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\DataStruSet\obj\Debug\net6.0\ref\PracticeFolder.dll
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\DataStruSet\obj\Debug\net6.0\PracticeFolder.pdb
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\DataStruSet\obj\Debug\net6.0\PracticeFolder.genruntimeconfig.cache
