@@ -1,0 +1,15 @@
+C:\Users\mkare_wyte20y\Revature\KarenM\WK2\SelfStudy\Parameters\bin\Debug\net6.0\Parameters.exe
+C:\Users\mkare_wyte20y\Revature\KarenM\WK2\SelfStudy\Parameters\bin\Debug\net6.0\Parameters.deps.json
+C:\Users\mkare_wyte20y\Revature\KarenM\WK2\SelfStudy\Parameters\bin\Debug\net6.0\Parameters.runtimeconfig.json
+C:\Users\mkare_wyte20y\Revature\KarenM\WK2\SelfStudy\Parameters\bin\Debug\net6.0\Parameters.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK2\SelfStudy\Parameters\bin\Debug\net6.0\ref\Parameters.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK2\SelfStudy\Parameters\bin\Debug\net6.0\Parameters.pdb
+C:\Users\mkare_wyte20y\Revature\KarenM\WK2\SelfStudy\Parameters\obj\Debug\net6.0\Parameters.csproj.AssemblyReference.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK2\SelfStudy\Parameters\obj\Debug\net6.0\Parameters.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkare_wyte20y\Revature\KarenM\WK2\SelfStudy\Parameters\obj\Debug\net6.0\Parameters.AssemblyInfoInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK2\SelfStudy\Parameters\obj\Debug\net6.0\Parameters.AssemblyInfo.cs
+C:\Users\mkare_wyte20y\Revature\KarenM\WK2\SelfStudy\Parameters\obj\Debug\net6.0\Parameters.csproj.CoreCompileInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK2\SelfStudy\Parameters\obj\Debug\net6.0\Parameters.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK2\SelfStudy\Parameters\obj\Debug\net6.0\ref\Parameters.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK2\SelfStudy\Parameters\obj\Debug\net6.0\Parameters.pdb
+C:\Users\mkare_wyte20y\Revature\KarenM\WK2\SelfStudy\Parameters\obj\Debug\net6.0\Parameters.genruntimeconfig.cache

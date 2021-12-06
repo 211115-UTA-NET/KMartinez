@@ -1,0 +1,15 @@
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\FileInteractions\bin\Debug\net6.0\FileInteractions.exe
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\FileInteractions\bin\Debug\net6.0\FileInteractions.deps.json
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\FileInteractions\bin\Debug\net6.0\FileInteractions.runtimeconfig.json
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\FileInteractions\bin\Debug\net6.0\FileInteractions.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\FileInteractions\bin\Debug\net6.0\ref\FileInteractions.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\FileInteractions\bin\Debug\net6.0\FileInteractions.pdb
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\FileInteractions\obj\Debug\net6.0\FileInteractions.csproj.AssemblyReference.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\FileInteractions\obj\Debug\net6.0\FileInteractions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\FileInteractions\obj\Debug\net6.0\FileInteractions.AssemblyInfoInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\FileInteractions\obj\Debug\net6.0\FileInteractions.AssemblyInfo.cs
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\FileInteractions\obj\Debug\net6.0\FileInteractions.csproj.CoreCompileInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\FileInteractions\obj\Debug\net6.0\FileInteractions.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\FileInteractions\obj\Debug\net6.0\ref\FileInteractions.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\FileInteractions\obj\Debug\net6.0\FileInteractions.pdb
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\FileInteractions\obj\Debug\net6.0\FileInteractions.genruntimeconfig.cache

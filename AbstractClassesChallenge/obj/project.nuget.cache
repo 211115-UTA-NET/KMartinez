@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "usvgz8ycZBt5PIy7bqVD1vKYeEu0zpchkKPdj938a6GlerKdROecP1xxFWsRGW89h1Dgieb8+ErPMz8ikAx/gg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mkare_wyte20y\\Revature\\KarenM\\AbstractClassesChallenge\\AbstractClassesChallenge.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mkare_wyte20y\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
+  "logs": []
+}

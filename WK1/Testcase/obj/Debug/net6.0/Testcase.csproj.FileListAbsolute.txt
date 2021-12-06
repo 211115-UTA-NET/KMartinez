@@ -1,0 +1,15 @@
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\Testcase\bin\Debug\net6.0\Testcase.exe
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\Testcase\bin\Debug\net6.0\Testcase.deps.json
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\Testcase\bin\Debug\net6.0\Testcase.runtimeconfig.json
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\Testcase\bin\Debug\net6.0\Testcase.dll
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\Testcase\bin\Debug\net6.0\ref\Testcase.dll
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\Testcase\bin\Debug\net6.0\Testcase.pdb
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\Testcase\obj\Debug\net6.0\Testcase.csproj.AssemblyReference.cache
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\Testcase\obj\Debug\net6.0\Testcase.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\Testcase\obj\Debug\net6.0\Testcase.AssemblyInfoInputs.cache
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\Testcase\obj\Debug\net6.0\Testcase.AssemblyInfo.cs
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\Testcase\obj\Debug\net6.0\Testcase.csproj.CoreCompileInputs.cache
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\Testcase\obj\Debug\net6.0\Testcase.dll
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\Testcase\obj\Debug\net6.0\ref\Testcase.dll
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\Testcase\obj\Debug\net6.0\Testcase.pdb
+C:\Users\mkare_wyte20y\Revature\PracticeFolder\Testcase\obj\Debug\net6.0\Testcase.genruntimeconfig.cache

@@ -1,0 +1,24 @@
+Week 2.5 notes
+Monday 11-29-2021
+**EXCEPTIONS**
+Keywords: try, catch, finally, throw.
+Exceptions in C# provide a structured, uniform, and type-safe way of handling both system level and application level error conditions. The exception mechanism in C# is quite similar to that of C++, with a few important differences:
+
+In C#, all exceptions must be represented by an instance of a class type derived from System.Exception. 
+In C++, any value of any type can be used to represent an exception.
+In C#, a finally block (The try statement) can be used to write termination code that executes in both normal execution and exceptional conditions. Such code is difficult to write in C++ without duplicating code.
+In C#, system-level exceptions such as overflow, divide-by-zero, and null dereferences have well defined exception classes and are on a par with application-level error conditions.
+
+An exception is similar to an if else, because they are working through conditionals.
+
+$-is an injections. Drops values without needing to use the concatenation of a string.
+${<display>}:<string> literal{<display>}
+
+
+ctrl c - breaks operation
+**NAMESPACE**
+Namespaces are used to organize the classes. It helps to control the scope of methods and classes in larger . Net programming projects. ... The biggest advantage of using namespace is that the class names which are declared in one namespace will not clash with the same class names declared in another namespace.
+
+
+November Tuesday 30, 2021
+December Wednesday 1, 2021

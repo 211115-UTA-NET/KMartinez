@@ -1,0 +1,23 @@
+
+**QUIZ**
+C# variable access outside code block
+In C#, variables are not accessible outside the code block in which they are declared.
+True
+False
+
+What is false about Interfaces in C#?
+They can be used to allow for multiple inheritance
+All methods in an interface must be implemented
+Both a class and a struct can implement them
+You define an interface with the interface keyword
+All of these are true about interfaces
+
+C# string array access example
+Given a string[] variable in C# named words, what expression will give the first character of the second string in the array?
+
+Modifiers
+'abstract' means ___
+the thing being modified has a missing or incomplete implementation.
+the thing being instantiated has a missing or incomplete implementation.
+the thing being instantiated has a missing or complete implementation.
+the thing being modified has a flawed or incomplete implementation.
