@@ -26,6 +26,8 @@ namespace AbstractClassesChallenge
         {
             this.Name = Name;
             this.NumSides = NumSides;
+            
+
         }
 
         // This method returns the general information about the shape.

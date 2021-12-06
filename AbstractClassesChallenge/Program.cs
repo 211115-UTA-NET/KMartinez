@@ -4,9 +4,25 @@ namespace AbstractClassesChallenge
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main()
         {
-            Console.WriteLine("Hello World!");
+            
+            Shape newShape = new Shape();
+            newShape.GetInfo();
+
+
+
+
+            Triangle newTriangle = new Triangle (3, 5);
+
+
+            Square newSquare = new Square (2, 2);
+
+
+
+            Rectangle
+               
         }
+
     }
 }
