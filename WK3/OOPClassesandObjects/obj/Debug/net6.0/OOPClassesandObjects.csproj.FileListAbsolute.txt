@@ -1,0 +1,15 @@
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\OOPClassesandObjects\bin\Debug\net6.0\OOPClassesandObjects.exe
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\OOPClassesandObjects\bin\Debug\net6.0\OOPClassesandObjects.deps.json
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\OOPClassesandObjects\bin\Debug\net6.0\OOPClassesandObjects.runtimeconfig.json
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\OOPClassesandObjects\bin\Debug\net6.0\OOPClassesandObjects.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\OOPClassesandObjects\bin\Debug\net6.0\ref\OOPClassesandObjects.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\OOPClassesandObjects\bin\Debug\net6.0\OOPClassesandObjects.pdb
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\OOPClassesandObjects\obj\Debug\net6.0\OOPClassesandObjects.csproj.AssemblyReference.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\OOPClassesandObjects\obj\Debug\net6.0\OOPClassesandObjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\OOPClassesandObjects\obj\Debug\net6.0\OOPClassesandObjects.AssemblyInfoInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\OOPClassesandObjects\obj\Debug\net6.0\OOPClassesandObjects.AssemblyInfo.cs
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\OOPClassesandObjects\obj\Debug\net6.0\OOPClassesandObjects.csproj.CoreCompileInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\OOPClassesandObjects\obj\Debug\net6.0\OOPClassesandObjects.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\OOPClassesandObjects\obj\Debug\net6.0\ref\OOPClassesandObjects.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\OOPClassesandObjects\obj\Debug\net6.0\OOPClassesandObjects.pdb
+C:\Users\mkare_wyte20y\Revature\KarenM\WK3\OOPClassesandObjects\obj\Debug\net6.0\OOPClassesandObjects.genruntimeconfig.cache

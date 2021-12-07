@@ -1,0 +1,15 @@
+C:\Users\mkare_wyte20y\Revature\KarenM\wk2\datastruset\bin\Debug\net6.0\DataStruSet.exe
+C:\Users\mkare_wyte20y\Revature\KarenM\wk2\datastruset\bin\Debug\net6.0\DataStruSet.deps.json
+C:\Users\mkare_wyte20y\Revature\KarenM\wk2\datastruset\bin\Debug\net6.0\DataStruSet.runtimeconfig.json
+C:\Users\mkare_wyte20y\Revature\KarenM\wk2\datastruset\bin\Debug\net6.0\DataStruSet.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\wk2\datastruset\bin\Debug\net6.0\ref\DataStruSet.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\wk2\datastruset\bin\Debug\net6.0\DataStruSet.pdb
+C:\Users\mkare_wyte20y\Revature\KarenM\wk2\datastruset\obj\Debug\net6.0\DataStruSet.csproj.AssemblyReference.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\wk2\datastruset\obj\Debug\net6.0\DataStruSet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkare_wyte20y\Revature\KarenM\wk2\datastruset\obj\Debug\net6.0\DataStruSet.AssemblyInfoInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\wk2\datastruset\obj\Debug\net6.0\DataStruSet.AssemblyInfo.cs
+C:\Users\mkare_wyte20y\Revature\KarenM\wk2\datastruset\obj\Debug\net6.0\DataStruSet.csproj.CoreCompileInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\wk2\datastruset\obj\Debug\net6.0\DataStruSet.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\wk2\datastruset\obj\Debug\net6.0\ref\DataStruSet.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\wk2\datastruset\obj\Debug\net6.0\DataStruSet.pdb
+C:\Users\mkare_wyte20y\Revature\KarenM\wk2\datastruset\obj\Debug\net6.0\DataStruSet.genruntimeconfig.cache

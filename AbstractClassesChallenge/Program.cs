@@ -6,23 +6,25 @@ namespace AbstractClassesChallenge
     {
         public static void Main()
         {
-            
-            Shape newShape = new Shape();
-            newShape.GetInfo();
+            Rectangle newRectangle = new Rectangle(2,3, "Rectangle");
+            newRectangle.GetInfo();
+            newRectangle.caculateR();
+            newRectangle.GetArea();
+            Console.WriteLine();
 
 
 
 
-            Triangle newTriangle = new Triangle (3, 5);
+            //     Triangle newTriangle = new Triangle (3, 5);
+            //     newTriangle.GetInfo();
+            //     Console.WriteLine(newTriangle.GetInfo + newTriangle.GetArea);
 
 
-            Square newSquare = new Square (2, 2);
+            //     Square newSquare = new Square (2, 2);
+        
 
-
-
-            Rectangle
-               
         }
 
+    
     }
 }

@@ -15,15 +15,15 @@ namespace SampleNamespace
         {
             Console.WriteLine("Hello World!");
 
-            // Person newGuy = new Person();
-            // newGuy.Introduce();
+            Person newGuy = new Person();
+            newGuy.Introduce();
 
-            // Person someOtherPerson = new Person("Tommy", "Nguyen");
-            // someOtherPerson.Introduce();
+            Person someOtherPerson = new Person("Tommy", "Nguyen");
+            someOtherPerson.Introduce();
 
-            // Console.WriteLine(newGuy.getFirstName());
-            // newGuy.setFirstName("Stefan");
-            // Console.WriteLine(newGuy.getFirstName());
+            Console.WriteLine(newGuy.getFirstName());
+            newGuy.setFirstName("Stefan");
+            Console.WriteLine(newGuy.getFirstName());
 
             Employee Kyler = new Employee(40, 18.50, "Kyler", "Dennis");
             Kyler.doWork();
@@ -40,7 +40,7 @@ namespace SampleNamespace
             Console.WriteLine(Howard.CashOnHand);
 
 
-            Intern Steve = new Intern(15, "Steve", "Burns");
+            Intern Steve = new Intern(30, "Steve", "Burns");
             Steve.Introduce();
             Console.WriteLine("I made, " + Steve.coffeeMade + " coffees!");
 

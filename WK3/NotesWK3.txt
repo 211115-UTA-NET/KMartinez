@@ -1,11 +1,11 @@
-
-**QUIZ**
+-----------------Monday 12-06-2021-------------------------
+	**QUIZ**
 C# variable access outside code block
 In C#, variables are not accessible outside the code block in which they are declared.
 True
 False
 
-What is false about Interfaces in C#?
+•What is false about Interfaces in C#?
 They can be used to allow for multiple inheritance
 All methods in an interface must be implemented
 Both a class and a struct can implement them
@@ -21,3 +21,66 @@ the thing being modified has a missing or incomplete implementation.
 the thing being instantiated has a missing or incomplete implementation.
 the thing being instantiated has a missing or complete implementation.
 the thing being modified has a flawed or incomplete implementation.
+
+
+	**QC**
+Whats your favorite OOP Pillar.
+Name access modifires and explain.
+How to make read only and write only modifiers.
+
+differnce between list and array?
+
+
+What is polymorphism in C#?
+
+Method overloading.
+
+what the difference between exceptions and errors.
+what a method, class, and constructor.
+-------------------------------------------------------------------------
+Tuesday 12-07-2021
+Visual Studio 2022 
+ASPE.NET and web development
+
+
+Field-
+Property-
+
+public string Number {get} doesnt change
+Whats the relationship between field and propertry?
+in .NET:
+	there are mutplie languages
+		C#, F#, VB.NET
+(C++/CLI)
+	Multiple Runtimes:
+	Window, MAC, Linx, 32-bit, 64-bit
+	but also mobile, embedded systems/IoT
+
+	different runtime with different priorities(.NET6, mono)
+
+	Multiple Frameworks
+
+
+
+.NET Framework
+standardizes as: Common Language Infrastructure (CLI)
+SOURCE CODE --> COMPILER-->ASSEMBLY-->RUNTIME:
+					Virtual Excecution System(VES)
+					Just-in-time complier (JIT)
+					Executes that native code
+					Implement memory managment(garbage collection)
+
+
+different .NET implementations:
+-.NET Framework(VES=Common Language Runtime(CLR)) [windows only]
+-Mono was reversed engineer to run on linux [linux/mac only]
+-.NET Core v1-3.1
+-.NET	   v5-6  next version of .NET Core, rebranded
+
+the common denominator of .NET Framework and .NET Core is called .NET Standard.
+-------------------------------------------------------------------------
+Wednesday 12-08-2021
+-------------------------------------------------------------------------
+Thursday 12-09-2021
+-------------------------------------------------------------------------
+Friday 12-10-2021 
