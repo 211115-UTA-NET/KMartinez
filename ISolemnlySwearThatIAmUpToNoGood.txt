@@ -1,0 +1,729 @@
+				**Welcome to my Maraduer's Notes**
+				(Warning typos and a little messy)
+			
+
+				WEEK 1 NOTES
+___________________________________________________________________________________
+---------------------------------Monday 11-15-2021---------------------------------
+Installed gitbash
+Made accounts for:
+•Discord
+•HackerRank
+•
+				**GITBASH COMMANDS**
+<CurrentUser>/<Machine>MINW64~
+~->(Home Directory)
+pwd-> Print working (current) directory.
+c ../ ->Up one directory
+ls -> List contents of current folder.
+ls ./<FolderName>->List contents of specific folder.
+mkdir <NameFolder> ->Creates new directory.
+touch <NameFile.FileExtenstion> ->Creates new file, like .txt, .md, .sh, etc.
+rm <Filename>->Deletes file.
+rm-r <Foldername>-> Deletes folder.
+rm ./<Folder you need to go into>/<File in folder you want to delete.FileExtension>->Deletes specific file in a specific folder.
+rm -r -i <Folder your deleting>->Promts if you are sure.
+help->List helpful commands/flags.
+<Command> --help->Detailed help on command.
+c ..->Parent Directory.
+c ././<Directory>/<Directory>/->Navigate through two folders in one command.
+cat <Filename>->read/prints content.
+clear->Clears screen.
+exit->Exits.
+start . ->Open current directory.
+start <program Ex.Notepad> <File.Extension> -> Open/run a file in desired program.
+explore - open a file explorer to the target location.
+
+				**HOW TO CLONE A REPOSITORY**
+*Pick location/directory*
+mkdir <Foldername>
+cd <Foldername>
+git clone <Paste github URL>
+
+What is a repository?
+A folder in the internet(github) used to store code. Depending if it is public or private, others can view, edit, pull, push.
+To make sure you are in the repo change directory to where you clone repo. You should see (main). Ex.<CurrentUser>/<Machine>MINW64~/Directory/reponame(main)
+In your repo you can add, edit, remove and push.
+
+___________________________________________________________________________________
+---------------------------------Tuesday 11-16-2021--------------------------------
+				**GIT BASH**
+GIT
+"" clone <github URL> -> Creates linked repository to local.
+"" add <File/Foldername> ->Specifies what you want to add.
+"" add . -> Adds everything.
+"" status -> Display the status the repo, including the files not yet added, added but not comitted, and what commit the repo is on.
+"" push -> Sends the most recent commit to the repo
+"" pull -> Pulls most recent commits from cloud repo to local repo.
+echo "Hello" -> Prints Hello
+echo "Hello" > <Filename.Ext> -> Prints messafe into file and overwrites.
+echo "Hello" >> <Filename.Ext> -> Prints new string, append.
+which <Application> -> Shows path.
+"" --Version -> Displays version of application.
+| -> String together commands in the same command line.
+ls -a -> Shows hidden content.
+nano -> Text editor.
+				**HOW TO BASH SCRIPT**
+*Create script file*
+touch <Filename.sh)
+open in notepad.
+On top type
+#!/usr/bin/bash
+<now you can script>
+
+	--CREATING A VARIABLE--
+#!/usr/bin/bash
+variable = "Hello" -> Create name "Hello"
+echo $variable -> Prints variable content "Hello" $-used to call variable
+
+	--ACCEPT NEW VARIABLE--
+echo "Please Enter a Variable" 
+read variable -> Reads user input.
+echo $variable -> Prints user input.
+echo $variable "is what you entered" -> Prints user input and text.
+	--CONDITIONALS--
+if ->Comparison
+else-if -> Testing if a second comparison is true.
+else -> if all else fails do (condition)\
+== -is equal to
+> or < Greater or less than.
+>= or <= Greater/equal or less/equal.
+!= -Not equal to
+
+|| -> Logical OR between two things one needs to be true
+1 = True/Yes/On; 0 = False/No/Off
+	0 || 0 = 0
+	1 || 0 = 1
+	0 || 1 = 1
+	1 || 1 = 1
+&& -> Logical AND between two things one needs to be true
+1 = True/Yes/On; 0 = False/No/Off
+	0 && 0 = 0
+	1 && 0 = 0
+	0 && 1 = 0
+	1 && 1 = 1
+		**MAKE YOUR OWN REPOSITORY**
+**!!DO NOT CLONE REPO IN ANOTHER REPO!!**
+
+-Go to organization on github
+-Press NEW
+-Create a new repository 
+-Name repository
+-Copy link
+-In git terminal.
+	->create a directory
+	->cd to your directory
+	->git clone <Paste URL>
+	Congrats! You have created a repository!
+	--HOW TO UPDATE--
+git int
+git add <.all or specific>
+git commit -m "<comment>"
+git push
+	--HOW TO PULL FROM A REPO--
+Pull from Trainer-code.
+In git terminal make sure you are in the trainer-code directory and type git pull.
+
+				**HACKER CHALLENGES**
+	
+	--LET'S ECHO--
+echo "Hello"
+
+	--PERSONILIZED ECHO--
+read name
+echo "Welcome" $name
+
+	--LOOPING WITH NUMBERS--
+for x in {1..50}
+do 
+echo $x
+done
+OR
+for ((x=1; x<=50; x+x))
+do 
+echo $x
+done
+PRINTS 
+1
+2
+3
+.
+.
+.
+50
+	--LOOPING AND SKIPPING--
+seq 1 2 99
+	OR
+for i in {1..99..}
+do 
+echo $i
+done
+	OR
+for ((i=1; i<100; i+2))
+do 
+echo $i
+done
+PRINTS
+1
+2
+3
+.
+.
+.
+99
+	--GETTING STARTED WITH CONDITIONALS--
+read x
+if [ "$x" == "Y" ] || [ "$x" == "y" ]; then
+echo "yes"
+elif ["$x" == "N" ] || [ "$x" == "n" ]; then
+echo "no"
+fi
+	--COMPARING NUMBERS--
+read x
+read y
+if [$x -gt $y]
+then 
+echo "x is greater than y"
+if [$x = $y]
+then 
+echo "x is equal y"
+if [$x -lt $y]
+then 
+echo "x is less than y"
+fi
+	--COMPUTE THE AVERAGE--
+read n
+for i in $(seq 1 $n);
+do
+read num
+sum = $((sum + num))
+done
+echo $sum/$n |bc - l| xargs printf "%.3f"
+
+___________________________________________________________________________________
+---------------------------------Wednesday 11-17-2021------------------------------
+				**CHALLENGES IN BASHSCRIPTS**
+	--CREATE BASH SCRIPT--
+touch <namefile.sh>
+In shellscript (notepad)
+#!/usr/bin/bash
+
+#Create a new folder
+mkdir ./testfolder
+
+
+#Create a new file in that folder
+touch ./testfolder/newfile.txt
+
+
+#Write text to the new file
+echo "this is some line of text" > ./testfolder/newfile.txt
+
+
+#Loop 1-20, append odd to file
+for i in {1..20..2}; do
+    echo $i >> ./testfolder/newfile.txt
+done
+
+#filepath="./testfolder/newfile.txt"
+
+#for (( i=1; i<20; i+=2 )) 
+#do
+#    echo $i >> $filepath
+#done
+
+
+#Loop 1-20, print even numbers to a single line
+#for ((i=2; i<=20; i+=2));
+#do
+#    if [ $i -lt 20 ]; then
+#        echo -n "$i, "
+#    else
+#        echo -n $i
+#    fi
+#done
+
+
+for i in {2..20..2}
+do
+
+	nums+=$i
+	if(($i<20))
+	then
+		nums+=", "
+	fi
+done
+
+echo $nums >> ./testfolder/newfile.txt
+				**BASH**
+chmod -> Allows users to change permissions
+	-remove + add => overwrite
+	ls -l shows permisions
+	chmod 000 permissions txt -> No permissions, changes to read only
+grep -> Search within file for words or types of files.
+sed -> Find word and replace (Stream Editor)
+Example $sed 's/<oldtext>/<newtext>g' <filename.ext>
+*its case sensitive
+*g ->Entire doc.
+Standard Error 2
+-find "doesnt exist" 2> find.error txt
+Variable types - Name given to a memory location.
+Reading from a file - bash built-in command that reads a line from standard input and split the line into words.
+Bashshell -> Converts code to CPU to understand.
+		**C# .NET CONSOLE APP**
+In git terminal
+*Choose a directory-> Create a directory
+mkdir <Foldername>
+cd <Foldername>
+dotnet new console
+code . -> Opens in VS code
+dotnet build -> Displays project
+
+*Two ways of running code*
+dotnet ./bin/Debug/net6.0/<filename.dll>
+	OR
+dotnet run
+*And then displays code!
+				**DATA TYPES**
+	--PRIMITIVE DATA TYPES--
+Primitive data types are the main built-in types and could be used to build other data types.
+•int- All whole numbers.
+•char- Unicode charater.
+•short- Whole numbers.
+•float- Real numbers
+•bool- Logical True/False.
+•byte- Whole numbers.
+•double- All real numbers.
+•long- Whole numbers (HUGE to tiny)
+
+___________________________________________________________________________________
+---------------------------------Thursday 11-18-2021-------------------------------
+				**BINARY**
+Binary		Decimal
+0000		0
+0001		1
+0010		2
+0011		3
+0100		4	
+0101		5
+1111		15
+				**C#**
+Parsing- Analyze (a string or text) into logical syntactic components, typically in order to test confomability to logical grammmer. Converst string that represents a .NET base type into that base type.
+
+Conversion-> Converting one type of date to another type know as Type Casting.
+	There are two types
+	-Implicit type- preform by C# in type safe manner
+	-Explicit type- done by users using predefined functions Explicit conversions require a cast operator.
+Casting -> A value is converted from one data type to another. Casting does not change the variables value, the value remains the same type.
+				**LOG MESSAGES**
+Debug- Useful development tool to confirm or verify the status or operation of your code.
+Info- Important info. about the regular operation of a program or service.
+Tracing- Useful info. about actions taken leading up to an error or fatal error.
+Warnings- Notifies user of some oddity-version derpreciated line ending.
+Errors - anything fatal to an operation, but not to the entire application
+Fatal/Critical - any error that is forcing the full shutdown of an application/service
+Exceptions - a problem that arises during the execution of a program, that provides. A way to transfer control from one part of a program to another.
+___________________________________________________________________________________
+---------------------------------Friday 11-19-2021---------------------------------
+
+REVIEWED
+				**CONDITIONAL STATEMENTS**
+	--IF-ELSE--
+if (CODITION)
+{
+	do this;
+}
+else if (DIFFERENT CODITION)
+{
+	do this other thing;
+}
+else
+{
+	do this;
+}
+
+	--SWITCH--
+switch (<EXPRESSION>)
+{
+	case 0:
+	statment do;
+	break;
+	case 1:
+	stament do;
+	break;
+	default:
+	when all else fails do this
+	break;
+}
+	--LOOPS--
+	-FOR LOOP-
+constraints we need to know max number of loops. Set number of iterations. Must use a numerical comparison. If the number of iteration is fixed it recommended to use for loop vs do-while. 
+	-DO WHILE-
+Are used to iterate a paret of the program several times. If the number of iteration is not fixed and you must have to execute the loop at least once its is recommended to use do-while.
+do
+{
+
+}
+while(CODITION);
+
+	-WHILE-
+uses a single test condition. If its true it will run again. This are used to iterate a part of the progam several times. If the number of iteration is not fixed while is recommended vs for loop.
+while(CONDITION)
+{
+	do this;
+}
+
+___________________________________________________________________________________
+				WEEK 2 NOTES
+
+___________________________________________________________________________________
+---------------------------------Monday 11-22-2021---------------------------------
+**QC**
+
+Root directory which is referred to as / (a slash) is the topmost level of the system drive while Home directory which is /Users/<short username> (also referred to as ~) comes under the root directory.  In root directory, the admin has the access for any changes in the configuration settings whereas if any user has only access to home directory, then he wont be able to change configurations of the entire system. 
+What is bash shell
+How would you create a bash script
+Difference between relative and absolute file path
+Where are root and home directories located
+What is shebang syntax
+What command is used to search for text in a file
+Difference between terminal and shell
+	terminal = text input/output environment
+	console = physical terminal
+	shell = command line interpreter
+Define chmod, how would you change a file to read only
+What is the purpose of scripting
+How are cd and chmod different
+How can you edit a file in Bash
+What is nano and vim
+What is ssh
+Difference between ls and mkdir
+Difference between touch and cat command
+	WHAT IS C#?
+-An Object-Oriented programming language. It's a general-purpose meaning there are many applications you can build using C# for example console applications Desktop applications, web services and applications and much more. It is a multi-paradigm programming language[still trying to figure that part out]. The created of C# took the best parts of java, c, c++ and innovated by introducing new concepts like types, properties and events. Another benefit of C# is garbage collector, So for example users don't need to worry about memory management.
+
+	WHAT IS .NET?
+-The .Net framework applications are multi-platform applications. The framework has been designed in such a way that it can be used from any of the following languages: C#, C++, Visual Basic, Jscript, COBOL, etc. All these languages can access the framework as well as they communicate with each other. It can help users write Windows applications web applications and web services.
+
+Difference between explicit and implicit types in C#
+
+What is whoami
+
+What is !#
+
+What is a way to share code with multiple people.
+-GITHUB
+
+Whats the difference between git and github.
+
+
+Why even use shell script.
+
+Give examples of c# values.
+
+Difference between explicit and implicit type conversion.
+
+___________________________________________________________________________________
+---------------------------------Tuesday 11-23-2021--------------------------------
+				**COLLECTIONS**
+*Arrary - Structure representing a fixed lenght order collection of values or objects with the same type.
+*List - List of objects which can be accesed by index. It supports storing values of specifi type without casting to or from an object. More flexiable than an array.
+*Queue - First-in, first-out collection of objects. Need to use System.Collections.Generic Keywords: Queue<T>, Enqueue()->adds, *Dequeue() or Peek()->retrive elements.
+*Stack - Last in, first out. Keyword: stack<T>, push()->add, pop() or peek()-> retrive. Also come from System.Collections.Generic
+*Dictornary - Represents a collection of keys and values.  
+*Hashset - Represents a set of values.
+___________________________________________________________________________________
+---------------------------------Wednesday 11-24-2021------------------------------
+
+___________________________________________________________________________________
+---------------------------------Thursday 11-25-2021-------------------------------
+NO TRANNING
+___________________________________________________________________________________
+---------------------------------Friday 11-26-2021---------------------------------
+NO TRAINING
+				WEEK 2.5 NOTES
+___________________________________________________________________________________
+---------------------------------Monday 11-29-2021---------------------------------
+				**EXCEPTIONS**
+Keywords: try, catch, finally, throw.
+Exceptions in C# provide a structured, uniform, and type-safe way of handling both system level and application level error conditions. The exception mechanism in C# is quite similar to that of C++, with a few important differences:
+
+In C#, all exceptions must be represented by an instance of a class type derived from System.Exception. 
+In C++, any value of any type can be used to represent an exception.
+In C#, a finally block (The try statement) can be used to write termination code that executes in both normal execution and exceptional conditions.Such code is difficult to write in C++ without duplicating code.
+In C#, system-level exceptions such as overflow, divide-by-zero, and null dereferences have well defined exception classes and are on a par with application-level error conditions.
+An exception is similar to an if else, because they are working through conditionals.
+
+$-is an injections. Drops values without needing to use the concatenation of a string.
+${<display>}:<string> literal{<display>}
+
+ctrl c - breaks operation
+
+				**NAMESPACE**
+keyword: namespace <EnterNamespaceName>
+Namespaces are used to organize the classes. It helps to control the scope of methods and classes in larger . Net programming projects.The biggest advantage of using namespace is that the class names which are declared in one namespace will not clash with the same class names declared in another namespace.
+
+___________________________________________________________________________________
+---------------------------------Tuesday 11-30-2021--------------------------------
+
+___________________________________________________________________________________
+---------------------------------Wednesday 12-01-2021------------------------------
+
+___________________________________________________________________________________
+---------------------------------Thursday 12-02-2021-------------------------------
+				**OVERLOADING**
+creating multipleversions of a method or constructor that accept different parameters(#of parameters, types, ets) and accomplish the same task. share the same name, but different parameters.
+				**OVERRIDING**
+Method overriding is a technique that allows the invoking of function from another class in the derived class. Creating a method in the derived class with the same
+				**PARAMETERS** (REWRITE!!*)
+•Value - Creates a copy of the parameter passed so modification does not affect each other.
+•Reference - Keyword: ref -causes a method to refer to the same variable that was passed into the method. Making changes to original.
+•Out- keyword: out -u sed when you want to return more than one value.
+•Array - keyword: parms - must be 1 dimensional arraya Allows us to send a varible number of parametrs to a function
+				**INTERFACE**
+Keyword: interface.
+Interface can be used to enforced the presence of a method in any class that implements
+
+___________________________________________________________________________________
+---------------------------------Friday 12-03-2021---------------------------------
+What is Abstraction?
+•a way to cut out all the data and simplify code. Like Facebook or Instagram. You take a picture or write out some text and press post. Abstract is the behind the sence of what it takes to post the user's content.
+
+
+What is Polymorphism in C#?
+•Polymorphism, in C#, is the ability of objects of different types to provide a unique interface for different implementations of methods. ... Polymorphism forms one of the fundamental concepts of object-oriented programming, along with encapsulation and inheritance. Polymorphism provides the ability to a class to have multiple implementations with the same name. has one name with multiple functionalities.
+
+
+What is an Inheritance?
+•In C#, inheritance is a process in which one object acquires all the properties and behaviors of its parent object automatically. In such way, you can reuse, extend or modify the attributes and behaviors which is defined in other class. Include I in the inheritance class to know its Inherit.
+
+•In C#, the class which inherits the members of another class is called derived class and the class whose members are inherited is called base class. The derived class is the specialized class for the base class. The code can be reusable, less code will be required since it can reuse members of the parent class.
+
+
+What is Encapsulation?
+•A way to protect data.
+What is SHH?
+•SSH or Secure Shell is a network communication protocol that enables two computers to communicate (c.f http or hypertext transfer protocol, which is the protocol used to transfer hypertext such as web pages) and share data.
+
+Difference between Primitive Types and Reference Types.
+•Primitive hold the value of the primitive type directly. 
+•Reference hold refernce pointer to objects which reside in the garbage collection heap.
+
+
+Whats a list?
+•Like an array but not fixed. keywork is List <T>
+
+What is an array?
+•In C#, array is an object of base type System.Array. In C#, array index starts from 0. We can store only fixed set of elements in C# array. Array can be string or integer but not mixed. To create a single dimensional array, you need to use [] after the type. Example int[] arr = new int[5]; To declare and initialize do int[] arr = new int [5]{10,20,40} or int[] arr = new int []{10,20,40} or int[] arr = {10,20,40} 
+				WEEK 3 NOTES
+___________________________________________________________________________________
+---------------------------------Monday 12-06-2021---------------------------------
+**QUIZ**
+C# variable access outside code block
+In C#, variables are not accessible outside the code block in which they are declared.
+True
+False
+
+•What is false about Interfaces in C#?
+They can be used to allow for multiple inheritance
+All methods in an interface must be implemented
+Both a class and a struct can implement them
+You define an interface with the interface keyword
+All of these are true about interfaces
+
+C# string array access example
+Given a string[] variable in C# named words, what expression will give the first character of the second string in the array?
+
+Modifiers
+'abstract' means ___
+the thing being modified has a missing or incomplete implementation.
+the thing being instantiated has a missing or incomplete implementation.
+the thing being instantiated has a missing or complete implementation.
+the thing being modified has a flawed or incomplete implementation.
+
+
+		**QC**
+Whats your favorite OOP Pillar.
+Name access modifires and explain.
+How to make read only and write only modifiers.
+
+differnce between list and array?
+
+
+What is polymorphism in C#?
+
+Method overloading.
+
+what the difference between exceptions and errors.
+what a method, class, and constructor.
+___________________________________________________________________________________
+---------------------------------Tuesday 12-07-2021--------------------------------
+Visual Studio 2022 
+ASPE.NET and web development
+
+
+Field-
+Property-
+
+public string Number {get} doesnt change
+Whats the relationship between field and propertry?
+in .NET:
+	there are mutplie languages
+		C#, F#, VB.NET
+(C++/CLI)
+	Multiple Runtimes:
+	Window, MAC, Linx, 32-bit, 64-bit
+	but also mobile, embedded systems/IoT
+
+	different runtime with different priorities(.NET6, mono)
+
+	Multiple Frameworks
+
+
+
+.NET Framework
+standardizes as: Common Language Infrastructure (CLI)
+SOURCE CODE --> COMPILER-->ASSEMBLY-->RUNTIME:
+					Virtual Excecution System(VES)
+					Just-in-time complier (JIT)
+					Executes that native code
+					Implement memory managment(garbage collection)
+
+
+different .NET implementations:
+-.NET Framework(VES=Common Language Runtime(CLR)) [windows only]
+-Mono was reversed engineer to run on linux [linux/mac only]
+-.NET Core v1-3.1
+-.NET	   v5-6  next version of .NET Core, rebranded
+
+the common denominator of .NET Framework and .NET Core is called .NET Standard.
+___________________________________________________________________________________
+---------------------------------Wednesday 12-08-2021------------------------------
+				**HOW TO DO A BRANCH** 
+use git
+git switch - C (create) <NameOFNewBranch>
+copy code to repo
+git status (check if worked)
+git add .
+git commit - "<name>"
+git push origin <name>
+
+
+
+				**SERIALIZE**
+What is Serialize.
+Take in data structure and turn it into a string and be able to send. 
+To serialise something is just to turn it into a blob of either binary or text. To deserialise is to take that blob of binary or text and turn it back into something like an object instance
+like a list of names can be serialised into XML and make it easier to send over the internet, save to file, or deserialize back to object later.
+
+				**TESTING**
+Why? Real world we have to be able to prove what we created works.
+Testing is a way to prove it does the job.
+Why isn't debugging/build good enough? Because we could get no erros but what we want the code to do could be wrong. Example We write a calculator and it will output a number but not the right number (PEMDAS). 1+2*(4-1) should be 7 but since we build and got no errors our output could be wrong like saying its 11. Testing helps us make sure its doing what we want it to do, like in this case know to use PEMDAS.
+___________________________________________________________________________________
+---------------------------------Thursday 12-09-2021-------------------------------
+				**DEBUDDING**
+We can add break points
+Debug.WriteLine(); -works in debug mode
+
+				**C# TYPE SYSTEM**
+The common type system
+It's important to understand two fundamental points about the type system in .NET:
+
+It supports the principle of inheritance. Types can derive from other types, called base types. The derived type inherits (with some restrictions) the methods, properties, and other members of the base type. The base type can in turn derive from some other type, in which case the derived type inherits the members of both base types in its inheritance hierarchy. All types, including built-in numeric types such as System.Int32 (C# keyword: int), derive ultimately from a single base type, which is System.Object (C# keyword: object). This unified type hierarchy is called the Common Type System (CTS). For more information about inheritance in C#, see Inheritance.
+Each type in the CTS is defined as either a value type or a reference type. These types include all custom types in the .NET class library and also your own user-defined types. Types that you define by using the struct keyword are value types; all the built-in numeric types are structs. Types that you define by using the class or record keyword are reference types. Reference types and value types have different compile-time rules, and different run-time behavior.
+
+
+static voiud Main()
+{
+	int a=0; //Value
+	strings="asdf"; //Reference
+	Product p =new Product(); //Reference
+	Method(a,s,p);
+}
+static void Method(int x, string y, Productz) //Value, Ref, Ref
+{
+	x++;
+	y+="a";
+	z.Name = y;
+}
+class Product
+{
+	public string Name ="123"; //Ref
+	public int id = 1; //Value
+}
+Stack- for local variables
+Heap-pretty much everything else.
+
+				**STRUCT**
+struct->keyword Example (<public,private,protect> struct <name>) 
+user define types.
+___________________________________________________________________________________
+---------------------------------Friday 12-10-2021---------------------------------
+				**ACCESS MODDIFIERS**
+	--READONLY--
+
+Keyword: readonly
+Can be used in four contexts:
+	1. In a field delaration it indicates that assigment to the field can only occur as part of the declaration or in constructor in the same classs. A readonly field can be assigned and reassigned multiple times within the field declaration and constructor.
+
+	2. readonly Can not be assigned after the constructor exits. This rule has two different implications.
+		-VALUE TYPES
+			--because value types directly contain their data, a fiel that is a readonly value type is immutable (can not be changed).
+		-REFERENCE TYPES
+			--contains a reference to their data, a fiedl htat is a readoly refernce type must alaways refge to the same object. That object is not immutable. The readonly modifier prevents the field from being replaced by a different instance of the refernce type. Gowever the modifire doesnt prevent the instance data of the field from being modified thorugh the read-only field.
+	3.readonly struc- a readonly indicates that the strucute typoe is immutable. 
+	4. ref readonly method return, the readonly mofifier indicates that method retuyrn a refernce and writes are not allowed to that reference.
+
+___________________________________________________________________________________
+---------------------------------Saturday 12-11-2021-------------------------------
+
+
+
+___________________________________________________________________________________
+------------------------------------SIDE NOTES-------------------------------------
+		--ANATOMY OF PROGRAM .cs--
+using.System- refercs to one of many librarys of the .NET Framework
+namespace-a way to organize code and classses and prevent naming conflicts which allows two classes to have the same name to exist in different namespaces in the same project.
+{
+	class <name> -class keyword is to define and create objects (almost everything in C# is an object.
+	{
+		<field/variables> - hold data value
+		int <number>
+		string <name>
+		static void Main() -method Main which is a starting point to write program.
+		{
+		CODE statments should end with;
+		}
+	}
+}
+
+-----------------------------------------------------------------------------------
+-Folder=Directory
+-strings -> Combinations of characters.
+-nano is Bash's default text editor.
+-#->gives instructions to bash.
+-ctrl+Space ->Promts suggestions.
+-...->code can be simplified
+-Casting-want to be able to use differnt implemitaitno same right genreal code that can take many different implemations and use them. A way of polymophisum (NEED TO EDIT TYPOS)
+-ArgumentNullException
+-in testing add reference by right clcking on dependencies.
+-DateTime.<Now>-Builtin datatype
+-git restore . -restores last commit.
+-----------------------------------------------------------------------------------
+		VISUAL STUDIO SHORTCUTS
+bookmarks- ctrl-k-k (add bookmark) ctrl-w-b
+create constructer ctor (snippet)
+auto implemented property - prop tab (snip)
+ex public string firsnatme { get; set;}
+cw tab - console.writeline snip
+try catch snip try tab
+try finally snip tryf
+for tab-snip
+forr
+format code
+select and press tab
+ctrl+a CTLR+K CTRL+f--clean up all code
+
+-------------------------------------------------------------------------------------
+.NET provides an environment for both developing, and executing, applications.

@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "usvgz8ycZBt5PIy7bqVD1vKYeEu0zpchkKPdj938a6GlerKdROecP1xxFWsRGW89h1Dgieb8+ErPMz8ikAx/gg==",
+  "dgSpecHash": "916ddqtHmw6SU3PhHykM+znidbwBu3MbS3lQAws3f5/tuGGk6WLRFbxGKga5JSsvQEu6TOX3D1Pl5G+Hkla+3Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\mkare_wyte20y\\Revature\\KarenM\\AbstractClassesChallenge\\AbstractClassesChallenge.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\mkare_wyte20y\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\mkare_wyte20y\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\mkare_wyte20y\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
     "C:\\Users\\mkare_wyte20y\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
   ],
   "logs": []

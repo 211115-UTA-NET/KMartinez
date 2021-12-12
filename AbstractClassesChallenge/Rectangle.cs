@@ -5,7 +5,7 @@ namespace AbstractClassesChallenge
     public class Rectangle : Shape
     {
         // Implement your Rectangle class here.
-
+        //lengt and width 
         int l =0;
         int w = 0;
         double areaR = 0;

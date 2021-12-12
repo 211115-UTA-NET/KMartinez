@@ -16,9 +16,9 @@ namespace OverrideOverload
             this.baseString = baseString;
         }
 
-        //Overloading - creating multipleversions of a method or constructor that accept different 
-        //parameters(#of parameters, types, ets) and accomplish the same task.
-        //share the same name, but different parameters.
+        /*Overloading - creating multipleversions of a method or constructor that accept different 
+        parameters(#of parameters, types, ets) and accomplish the same task.
+        share the same name, but different parameters.*/
 
         public void speak()
         {
