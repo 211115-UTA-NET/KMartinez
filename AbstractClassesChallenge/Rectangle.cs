@@ -6,20 +6,22 @@ namespace AbstractClassesChallenge
     {
         // Implement your Rectangle class here.
         //lengt and width 
-        int l =0;
-        int w = 0;
-        double areaR = 0;
-        public Rectangle(int l, int w, double areaR, string Name, int NumSides) : base (Name, NumSides)
+        protected int l =0;
+        protected int w = 0;
+        
+        public Rectangle(string Name, int NumSides, int l, int w) : base (Name, NumSides)
         {
+            this.Name = Name;
+            this.NumSides = NumSides;
             this.l = l;
             this.w = w;
             
         
         }
-        public double caculateR()
+        protected override void SetArea()
         {
-            areaR = l * w;
-            return areaR;
+            base.Area = l * w;
+            // return SetArea;  //does not like this
         }
     }
 

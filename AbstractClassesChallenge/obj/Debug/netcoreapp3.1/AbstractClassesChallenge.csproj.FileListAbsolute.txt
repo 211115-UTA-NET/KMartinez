@@ -3,3 +3,12 @@ C:\Users\mkare_wyte20y\Revature\KarenM\AbstractClassesChallenge\obj\Debug\netcor
 C:\Users\mkare_wyte20y\Revature\KarenM\AbstractClassesChallenge\obj\Debug\netcoreapp3.1\AbstractClassesChallenge.AssemblyInfoInputs.cache
 C:\Users\mkare_wyte20y\Revature\KarenM\AbstractClassesChallenge\obj\Debug\netcoreapp3.1\AbstractClassesChallenge.AssemblyInfo.cs
 C:\Users\mkare_wyte20y\Revature\KarenM\AbstractClassesChallenge\obj\Debug\netcoreapp3.1\AbstractClassesChallenge.csproj.CoreCompileInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\AbstractClassesChallenge\bin\Debug\netcoreapp3.1\AbstractClassesChallenge.exe
+C:\Users\mkare_wyte20y\Revature\KarenM\AbstractClassesChallenge\bin\Debug\netcoreapp3.1\AbstractClassesChallenge.deps.json
+C:\Users\mkare_wyte20y\Revature\KarenM\AbstractClassesChallenge\bin\Debug\netcoreapp3.1\AbstractClassesChallenge.runtimeconfig.json
+C:\Users\mkare_wyte20y\Revature\KarenM\AbstractClassesChallenge\bin\Debug\netcoreapp3.1\AbstractClassesChallenge.runtimeconfig.dev.json
+C:\Users\mkare_wyte20y\Revature\KarenM\AbstractClassesChallenge\bin\Debug\netcoreapp3.1\AbstractClassesChallenge.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\AbstractClassesChallenge\bin\Debug\netcoreapp3.1\AbstractClassesChallenge.pdb
+C:\Users\mkare_wyte20y\Revature\KarenM\AbstractClassesChallenge\obj\Debug\netcoreapp3.1\AbstractClassesChallenge.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\AbstractClassesChallenge\obj\Debug\netcoreapp3.1\AbstractClassesChallenge.pdb
+C:\Users\mkare_wyte20y\Revature\KarenM\AbstractClassesChallenge\obj\Debug\netcoreapp3.1\AbstractClassesChallenge.genruntimeconfig.cache
