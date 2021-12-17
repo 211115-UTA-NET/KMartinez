@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "9b39c562-d8b2-44cb-a38d-46533da4dc53": {
+      "ProjectGuid": "9b39c562-d8b2-44cb-a38d-46533da4dc53",
+      "DisplayName": "BooksApp.UI2",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

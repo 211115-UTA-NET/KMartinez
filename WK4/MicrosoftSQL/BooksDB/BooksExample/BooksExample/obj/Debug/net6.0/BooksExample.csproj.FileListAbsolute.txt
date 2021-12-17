@@ -1,0 +1,5 @@
+C:\Users\mkare_wyte20y\Revature\KarenM\WK4\MicrosoftSQL\BooksDB\BooksExample\BooksExample\obj\Debug\net6.0\BooksExample.csproj.AssemblyReference.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK4\MicrosoftSQL\BooksDB\BooksExample\BooksExample\obj\Debug\net6.0\BooksExample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkare_wyte20y\Revature\KarenM\WK4\MicrosoftSQL\BooksDB\BooksExample\BooksExample\obj\Debug\net6.0\BooksExample.AssemblyInfoInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK4\MicrosoftSQL\BooksDB\BooksExample\BooksExample\obj\Debug\net6.0\BooksExample.AssemblyInfo.cs
+C:\Users\mkare_wyte20y\Revature\KarenM\WK4\MicrosoftSQL\BooksDB\BooksExample\BooksExample\obj\Debug\net6.0\BooksExample.csproj.CoreCompileInputs.cache
