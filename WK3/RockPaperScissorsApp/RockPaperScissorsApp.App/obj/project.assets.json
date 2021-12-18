@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "RockPaperScissorsApp.Logic/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/RockPaperScissorsApp.Logic.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RockPaperScissorsApp.Logic.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "RockPaperScissorsApp.Logic/1.0.0": {
+      "type": "project",
+      "path": "../RockPaperScissorsApp.Logic/RockPaperScissorsApp.Logic.csproj",
+      "msbuildProject": "../RockPaperScissorsApp.Logic/RockPaperScissorsApp.Logic.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "RockPaperScissorsApp.Logic >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\mkare_wyte20y\\.nuget\\packages\\": {}
@@ -33,7 +52,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\mkare_wyte20y\\Revature\\trainer-code\\wk3\\RockPaperScissorsApp\\RockPaperScissorsApp.Logic\\RockPaperScissorsApp.Logic.csproj": {
+              "projectPath": "C:\\Users\\mkare_wyte20y\\Revature\\trainer-code\\wk3\\RockPaperScissorsApp\\RockPaperScissorsApp.Logic\\RockPaperScissorsApp.Logic.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

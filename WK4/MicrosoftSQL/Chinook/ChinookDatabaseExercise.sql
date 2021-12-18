@@ -15872,3 +15872,17 @@ WHERE c.country = 'Brazil';
 --25Provide a query that shows the top 3 best selling artists.
 --26Provide a query that shows the most purchased Media Type.
 --27Provide a query that shows the number tracks purchased in all invoices that contain more than one genre.
+
+
+
+
+
+
+
+
+
+
+
+
+
+

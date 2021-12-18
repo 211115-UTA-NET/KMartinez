@@ -1,5 +1,5 @@
 ﻿using System;
-using RockPaperScissorsApp.App;
+using RockPaperScissorsApp.Logic;
 using Xunit;
 using Xunit.Sdk;
 
@@ -13,7 +13,7 @@ namespace RockPaperScissorsApp.Tests
         // UnitOfTest_TestCondition_CorrectBehavior
 
         [Fact]
-        public void EvaluateResult_RockScissors_Win()  //First test [FACT} implies we are going to test specific case
+        public void EvaluateResult_RockScissors_Win()
         {
             // unit tests are supposed to be laser focused on one particular slice of behavior of one small unit of code.
             // to keep us focused, we divide the test logically in three steps: "arrange, act, assert"
@@ -41,40 +41,7 @@ namespace RockPaperScissorsApp.Tests
             var result = round.Result;
 
             // ASSERT (checking that the behavior was as expected)
-            Assert.Equal(expected: RoundResult.Win, actual: result); //Prefoming comparison
-        }
-
-
-        // it's just as important to test that "invalid" scenarios are handled correctly
-        // as it is to test the more obvious "valid" scenarios
-        [Fact]
-        public void Ctor_InvalidPlayerMove_ThrowsError() //Ctor=short hand of constructor
-        {
-            // arrange
-            var xml = new App.Serialization.Record //APP->Serlization->Record
-            {
-                PlayerMove = "asdfasdf",
-                CPUMove = "Rock",
-                Result = "Win"
-            };
-
-            // act
-            try
-            {
-                var round = new Round(xml);
-            }
-            catch (ArgumentException)
-            {
-                return;
-            }
-            throw new XunitException("expected an ArgumentException");
-
-            // the cool way to write that ^
-            //Assert.ThrowsAny<ArgumentException>(() => new Round(xml));
-
-            // assert
-            // (here, the correct behavior is throwing an exception.
-            // if xunit catches an unhandled exception, it is treated as a failure.
+            Assert.Equal(expected: RoundResult.Win, actual: result);
         }
     }
 }

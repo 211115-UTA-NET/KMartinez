@@ -19,6 +19,7 @@
 
 using System.Diagnostics;
 using System.Xml.Serialization;
+using RockPaperScissorsApp.Logic;
 
 namespace RockPaperScissorsApp.App
 {
@@ -47,7 +48,8 @@ namespace RockPaperScissorsApp.App
                 name = Console.ReadLine();
             }
             List<Round>? records = ReadHistoryFromFile("../../../history.xml");
-            Game game = new(name, records);
+            IMoveDecider moveDecider = new RandomMoveDecider();
+            Game game = new(name, moveDecider, records);
             Console.WriteLine($"[ Welcome Player {game.PlayerName}. ]");
             while (true)
             {
@@ -119,7 +121,7 @@ namespace RockPaperScissorsApp.App
                 if (records is null) throw new InvalidDataException();
 
                 // sneak peak into nice advanced feature called LINQ, using lambda expression delegates
-                return records.Select(x => new Round(x)).ToList();
+                return records.Select(x => x.CreateRound()).ToList();
             }
 
             catch (IOException)

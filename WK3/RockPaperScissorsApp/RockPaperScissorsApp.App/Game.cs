@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Serialization;
+using RockPaperScissorsApp.Logic;
 using Xml = RockPaperScissorsApp.App.Serialization;
 
 namespace RockPaperScissorsApp.App
@@ -12,14 +13,15 @@ namespace RockPaperScissorsApp.App
     {
         private List<Round> allRecords = new List<Round>();
         public string PlayerName { get; }
-        private string[] RPS = { "Rock", "Paper", "Scissor" };
+        private readonly IMoveDecider cpuMoveDecider;
 
         public XmlSerializer Serializer { get; } = new(typeof(List<Xml.Record>));
 
         // constructor
-        public Game(string playerName, List<Round>? allRecords = null)
+        public Game(string playerName, IMoveDecider cpuMoveDecider, List<Round>? allRecords = null)
         {
-            this.PlayerName = playerName;
+            PlayerName = playerName;
+            this.cpuMoveDecider = cpuMoveDecider;
             if (allRecords != null)
             {
                 this.allRecords = allRecords;
@@ -45,47 +47,21 @@ namespace RockPaperScissorsApp.App
                 }
             }
 
-            if (player < 4 && player > 0)
-            {
-                Random random = new Random();
-                int PCchoice = random.Next(1, 4);
-                Console.WriteLine();
-                Console.WriteLine($"You choose [{RPS[player - 1]}]");
-                Console.WriteLine($"PC gives you a [{RPS[PCchoice - 1]}]");
-                // Rock !< Scissor
-                if(PCchoice == 1 && player == 3)
-                {
-                    AddRecord(PCchoice, player, "Lose");
-                }
-                else if (PCchoice < player )
-                {
-                    AddRecord(PCchoice, player, "Win");
-                }
-                else if (PCchoice > player)
-                {
-                    AddRecord(PCchoice, player, "Lose");
-                }
-                else
-                {
-                    AddRecord(PCchoice, player, "A Tie");
-                }
-            }
+            //Random random = new Random();
+            //Move PCchoice = (Move)random.Next(3); // 0, 1 or 2
+            Move pcChoice = cpuMoveDecider.DecideMove();
+            Console.WriteLine();
+            Move playerMove = (Move)(player - 1);
+            Console.WriteLine($"You choose [{playerMove}]");
+            Console.WriteLine($"PC gives you a [{pcChoice}]");
+            AddRecord(pcChoice, playerMove);
         }
-        private void AddRecord(int pc, int player, string result)
-        {
-            Move move1 = (Move)Enum.Parse(typeof(Move), RPS[pc - 1]);
-            Move move2 = (Move)Enum.Parse(typeof(Move), RPS[player - 1]);
 
-            var record = new Round(DateTime.Now, move1, move2);
+        private void AddRecord(Move pc, Move player)
+        {
+            var record = new Round(DateTime.Now, player, pc);
             allRecords.Add(record);
-            if (result == "A Tie")
-            {
-                Console.WriteLine($"You have {result}!");
-            }
-            else
-            {
-                Console.WriteLine($"You {result}!");
-            }
+            Console.WriteLine($"You have a {record.Result}!");
         }
 
         public void Summary()
