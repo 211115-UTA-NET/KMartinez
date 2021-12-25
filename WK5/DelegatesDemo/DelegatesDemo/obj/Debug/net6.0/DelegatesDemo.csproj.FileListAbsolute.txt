@@ -1,0 +1,5 @@
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5\DelegatesDemo\DelegatesDemo\obj\Debug\net6.0\DelegatesDemo.csproj.AssemblyReference.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5\DelegatesDemo\DelegatesDemo\obj\Debug\net6.0\DelegatesDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5\DelegatesDemo\DelegatesDemo\obj\Debug\net6.0\DelegatesDemo.AssemblyInfoInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5\DelegatesDemo\DelegatesDemo\obj\Debug\net6.0\DelegatesDemo.AssemblyInfo.cs
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5\DelegatesDemo\DelegatesDemo\obj\Debug\net6.0\DelegatesDemo.csproj.CoreCompileInputs.cache

@@ -1,23 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\MarkC\\OneDrive\\Desktop\\DotnetTrainingMaterialsAll\\csharp-team\\DotnetCurriculumCodingChallenges\\5_Operators\\5_OperatorsChallenge-StudentCopy\\5_OperatorsChallenge.csproj": {}
+    "C:\\Users\\mkare_wyte20y\\Revature\\KarenM\\WK1\\C#challanges\\5_OperatorsChallenge\\5_OperatorsChallenge.csproj": {}
   },
   "projects": {
-    "c:\\Users\\MarkC\\OneDrive\\Desktop\\DotnetTrainingMaterialsAll\\csharp-team\\DotnetCurriculumCodingChallenges\\5_Operators\\5_OperatorsChallenge-StudentCopy\\5_OperatorsChallenge.csproj": {
+    "C:\\Users\\mkare_wyte20y\\Revature\\KarenM\\WK1\\C#challanges\\5_OperatorsChallenge\\5_OperatorsChallenge.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\MarkC\\OneDrive\\Desktop\\DotnetTrainingMaterialsAll\\csharp-team\\DotnetCurriculumCodingChallenges\\5_Operators\\5_OperatorsChallenge-StudentCopy\\5_OperatorsChallenge.csproj",
+        "projectUniqueName": "C:\\Users\\mkare_wyte20y\\Revature\\KarenM\\WK1\\C#challanges\\5_OperatorsChallenge\\5_OperatorsChallenge.csproj",
         "projectName": "5_OperatorsChallenge",
-        "projectPath": "c:\\Users\\MarkC\\OneDrive\\Desktop\\DotnetTrainingMaterialsAll\\csharp-team\\DotnetCurriculumCodingChallenges\\5_Operators\\5_OperatorsChallenge-StudentCopy\\5_OperatorsChallenge.csproj",
-        "packagesPath": "C:\\Users\\MarkC\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\MarkC\\OneDrive\\Desktop\\DotnetTrainingMaterialsAll\\csharp-team\\DotnetCurriculumCodingChallenges\\5_Operators\\5_OperatorsChallenge-StudentCopy\\obj\\",
+        "projectPath": "C:\\Users\\mkare_wyte20y\\Revature\\KarenM\\WK1\\C#challanges\\5_OperatorsChallenge\\5_OperatorsChallenge.csproj",
+        "packagesPath": "C:\\Users\\mkare_wyte20y\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\mkare_wyte20y\\Revature\\KarenM\\WK1\\C#challanges\\5_OperatorsChallenge\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\MarkC\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\mkare_wyte20y\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -29,6 +26,7 @@
         },
         "frameworks": {
           "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
           }
         },
@@ -40,6 +38,7 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
           "imports": [
             "net461",
             "net462",
@@ -50,12 +49,30 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[3.1.10, 3.1.10]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Host.win-x64",
+              "version": "[3.1.21, 3.1.21]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[3.1.0, 3.1.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "P41ZDM1SqAHw29vBpy9lKk3RnPuvSC5HmMGaGT2LCY9PFW78gFULrN6SEXQEU6gztdWhAvm6MZzFHrXq8gQ7tA==",
+  "dgSpecHash": "Gind5ncDRRKLiJJIXkixO5EllVl0VyCaUcM+w4tQZuBKs/0n4HRuis9E+YfQQ+66di0sxZtXqJU3kON8uEWEmA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\MarkC\\OneDrive\\Desktop\\DotnetTrainingMaterialsAll\\csharp-team\\DotnetCurriculumCodingChallenges\\5_Operators\\5_OperatorsChallenge-StudentCopy\\5_OperatorsChallenge.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\mkare_wyte20y\\Revature\\KarenM\\WK1\\C#challanges\\5_OperatorsChallenge\\5_OperatorsChallenge.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mkare_wyte20y\\.nuget\\packages\\microsoft.netcore.app.ref\\3.1.0\\microsoft.netcore.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\mkare_wyte20y\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.1.0\\microsoft.windowsdesktop.app.ref.3.1.0.nupkg.sha512",
+    "C:\\Users\\mkare_wyte20y\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.1.10\\microsoft.aspnetcore.app.ref.3.1.10.nupkg.sha512",
+    "C:\\Users\\mkare_wyte20y\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.21\\microsoft.netcore.app.host.win-x64.3.1.21.nupkg.sha512"
+  ],
   "logs": []
 }

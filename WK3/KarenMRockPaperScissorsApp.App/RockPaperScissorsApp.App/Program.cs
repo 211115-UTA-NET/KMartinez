@@ -17,30 +17,28 @@ namespace RockPaperScissorApp.App
 {
     public class Program
     {
-        public static void Main()
-        {
       
-            string player, Computer;
-            //int randomInt;
 
+        public static void Main(string[] args)
+        {
             Console.WriteLine("Welcome to RockPaperScissors App");
-            Console.WriteLine("Player pick: 1.Rock 2.Paper 3.Scissors");
-            string player = Console.ReadLine();
-            //player = player.ToUpper();
+            //Enter player name
+
+            Console.WriteLine("Player pick: Rock, Paper, Scissors");
+            Console.WriteLine();
+        
+
             var game = new Game();
-         
-           
+            game.PlayRound();
+            Console.WriteLine("Play a round? (y/n)");
+
+
+            string? input;
 
             while (true)
             {
-                //player = "";
-                //COM = "";
-                //while(player != "1" && player != "2" && player != "3" )
-
-                Console.WriteLine();
-                Console.WriteLine("Play a round? (y/n)");
-
-                string? input = Console.ReadLine();
+         
+                input = Console.ReadLine();
                 if (input != "y") { break; }
 
                 game.PlayRound();

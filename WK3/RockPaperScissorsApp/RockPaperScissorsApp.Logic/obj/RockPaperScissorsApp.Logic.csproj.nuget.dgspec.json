@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mkare_wyte20y\\Revature\\trainer-code\\wk3\\RockPaperScissorsApp\\RockPaperScissorsApp.Logic\\RockPaperScissorsApp.Logic.csproj": {}
+    "C:\\Users\\mkare_wyte20y\\Revature\\KarenM\\WK3\\RockPaperScissorsApp\\RockPaperScissorsApp.Logic\\RockPaperScissorsApp.Logic.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mkare_wyte20y\\Revature\\trainer-code\\wk3\\RockPaperScissorsApp\\RockPaperScissorsApp.Logic\\RockPaperScissorsApp.Logic.csproj": {
+    "C:\\Users\\mkare_wyte20y\\Revature\\KarenM\\WK3\\RockPaperScissorsApp\\RockPaperScissorsApp.Logic\\RockPaperScissorsApp.Logic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mkare_wyte20y\\Revature\\trainer-code\\wk3\\RockPaperScissorsApp\\RockPaperScissorsApp.Logic\\RockPaperScissorsApp.Logic.csproj",
+        "projectUniqueName": "C:\\Users\\mkare_wyte20y\\Revature\\KarenM\\WK3\\RockPaperScissorsApp\\RockPaperScissorsApp.Logic\\RockPaperScissorsApp.Logic.csproj",
         "projectName": "RockPaperScissorsApp.Logic",
-        "projectPath": "C:\\Users\\mkare_wyte20y\\Revature\\trainer-code\\wk3\\RockPaperScissorsApp\\RockPaperScissorsApp.Logic\\RockPaperScissorsApp.Logic.csproj",
+        "projectPath": "C:\\Users\\mkare_wyte20y\\Revature\\KarenM\\WK3\\RockPaperScissorsApp\\RockPaperScissorsApp.Logic\\RockPaperScissorsApp.Logic.csproj",
         "packagesPath": "C:\\Users\\mkare_wyte20y\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mkare_wyte20y\\Revature\\trainer-code\\wk3\\RockPaperScissorsApp\\RockPaperScissorsApp.Logic\\obj\\",
+        "outputPath": "C:\\Users\\mkare_wyte20y\\Revature\\KarenM\\WK3\\RockPaperScissorsApp\\RockPaperScissorsApp.Logic\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mkare_wyte20y\\AppData\\Roaming\\NuGet\\NuGet.Config",

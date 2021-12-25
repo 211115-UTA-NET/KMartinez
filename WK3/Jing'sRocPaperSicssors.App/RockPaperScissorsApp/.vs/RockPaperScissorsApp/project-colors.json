@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3a4562dc-deeb-46ba-a3fc-70a21c3dec80": {
+      "ProjectGuid": "3a4562dc-deeb-46ba-a3fc-70a21c3dec80",
+      "DisplayName": "RockPaperScissorsApp.App",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "bea3c953-6924-4b11-8a3d-5204a59e5774": {
+      "ProjectGuid": "bea3c953-6924-4b11-8a3d-5204a59e5774",
+      "DisplayName": "Solution Items",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3FXLD3Lh+m0j3OYGak1GcBEMojrFDDJBLpsa25xtzJJJxIb4jTkr9+UDylcFma7yKEFvtF3CcYG2E/MPvrp36g==",
+  "dgSpecHash": "S5mixCR6NYoamP3e88eaoKfZDcoR+bkDC6KIY4v6roSELh6UI+YUsvYjWLiUl48aweOQsFIpohkrPGKZD36+dQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mkare_wyte20y\\Revature\\trainer-code\\wk3\\RockPaperScissorsApp\\RockPaperScissorsApp.Tests\\RockPaperScissorsApp.Tests.csproj",
+  "projectFilePath": "C:\\Users\\mkare_wyte20y\\Revature\\KarenM\\WK3\\RockPaperScissorsApp\\RockPaperScissorsApp.Tests\\RockPaperScissorsApp.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mkare_wyte20y\\.nuget\\packages\\coverlet.collector\\3.1.0\\coverlet.collector.3.1.0.nupkg.sha512",
     "C:\\Users\\mkare_wyte20y\\.nuget\\packages\\microsoft.codecoverage\\16.11.0\\microsoft.codecoverage.16.11.0.nupkg.sha512",

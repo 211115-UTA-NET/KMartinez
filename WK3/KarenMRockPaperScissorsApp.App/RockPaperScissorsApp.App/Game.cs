@@ -5,141 +5,134 @@ namespace RockPaperScissorApp.App
 {
     public class Game
     {
-        
-        
-        private int playerPoints = 0;
-        private int ComputerPoints = 0;
+        private static string pick = "Rock, Paper, Scissor" ;  
 
-    public string Summary
-    {
-        get
+        public string Summary
         {
-            return  $"Player Points: {playerPoints} Computer Points: {computerPoints}";
-            
+            get
+            {
+                return $"Player Points: {playerPoints} Computer Points: {computerPoints}";
+
+            }
         }
-    }
+
+        public string Computer { get => computer; set => computer = value; }
+   
+        private string? player; 
+        private string computer;
+        private int playerPoints = 0;
+        private int computerPoints = 0;
 
 
         public void PlayRound()
         {
             //write game here
-            int player = 0; 
-            int computer = 0;
-            Console.WriteLine("Player");
-            Console.WriteLine("Computer");
+            int playerScore = 0;
+            int computerScore = 0;
+           
 
-            
-            int randomInt = 0;
+            int randomInt;
             Random rnd = new Random();
-            RandomInt = rnd.Next(1,4);
-
-
-
-            switch (RandomInt)
+            randomInt = rnd.Next(1, 4);
+            while (playerScore < 3 && computerScore < 3)
             {
-                case 1: //ROCK
-                    Computer = "Rock";
-                    Console.WriteLine("Computer Chose Rock");
-                    if (player == 1)
-                    {
-                        Console.WriteLine("It's a Draw!");
-                    }
-                   
-                    if (player == 2)
-                    {
-                        Console.WriteLine("You Win!");
+
+                switch (randomInt)
+                {
+
+
+                    //Computer
+                    case 1: //ROCK
+                        Computer = "Rock";
+                        Console.WriteLine("Computer Chose Rock");
+                        if (player == "Rock")
+                        {
+                            Console.WriteLine("It's a Draw!");
+                        }
+
+                        if (player == "Paper")
+                        {
+                            Console.WriteLine("You Win!");
                             playerPoints++;
-                    }
-                    
-                    if (player == 3)
-                    {
-                        Console.WriteLine("You lose :(");
-                            computerPoints++;
-                    }
-                    break;
+                        }
 
-                case 2: //PAPER
-                    Computer = "Paper";
-                    Console.WriteLine("Computer Chose Paper");
-                    if (player == 1)
-                    {Console.WriteLine("You lose :(");
+                        if (player == "Scissors")
+                        {
+                            Console.WriteLine("You lose :(");
                             computerPoints++;
-                    }
-                     
-                    if (player == 2)
-                    {
-                        Console.WriteLine("It's a Draw!");
-                     
-                    }
-                   
-                    if (player == 3)
-                    {
-                         Console.WriteLine("You Win!");
+                        }
+                        break;
+
+                    case 2: //PAPER
+                        Computer = "Paper";
+                        Console.WriteLine("Computer Chose Paper");
+                        if (player == "Rock")
+                        {
+                            Console.WriteLine("You lose :(");
+                            computerPoints++;
+                        }
+
+                        if (player == "Paper")
+                        {
+                            Console.WriteLine("It's a Draw!");
+
+                        }
+
+                        if (player == "Scissors")
+                        {
+                            Console.WriteLine("You Win!");
                             playerPoints++;
 
-                    }
-                    break;
+                        }
+                        break;
 
-                case 3: //SCISSORS
-                    Computer = "Scissor";
-                    Console.WriteLine("Computer Chose Scissor");
-                    if (player == 1)
-                    {
-                        Console.WriteLine("You Win!");
+                    case 3: //SCISSORS
+                        Computer = "Scissor";
+                        Console.WriteLine("Computer Chose Scissor");
+                        if (player == "Rock")
+                        {
+                            Console.WriteLine("You Win!");
                             playerPoints++;
-                        
-                    }
-                   
-                    if (player == 2)
-                    {
-                        Console.WriteLine("You lose :(");
-                            computerPoints++;
-                    }
-                    
-                    if (player == 3)
-                    {
-                        Console.WriteLine("It's a Draw!");
-                        
-                    }
-                    break;
 
-                default:
-                    Console.WriteLine("Invalide, Try Again");
-                    break;
+                        }
+
+                        if (player == "Paper")
+                        {
+                            Console.WriteLine("You lose :(");
+                            computerPoints++;
+                        }
+
+                        if (player == "Scissors")
+                        {
+                            Console.WriteLine("It's a Draw!");
+
+                        }
+                        break;
+
+                    default:
+                        Console.WriteLine("Invalide, Try Again");
+                        break;
+                }
+                //determine who wins
+                if (playerScore == 3)
+                {
+                    Console.WriteLine("Player WON!");
+                }
+                else if (computerScore == 3)
+                {
+                    Console.WriteLine("Computer WON!");
+                }
+                else
+                {
+
+                }
+
+                throw new NotImplementedException();
             }
-     
-
-            /*switch(player)
-            {
-                case "1":
-                    if (Computer == "1")
-                    {
-                        Console.WriteLine("Tie");
-                    }
-                    else
-                    {
-                        Console.WriteLine("You win");
-                    }
-                    break;
-
-                case "2":
-                    if(Computer=="2")
-                    {
-                        Console.WriteLine("");
-                    }
-                    
-                    break;
-
-                case "3":
-                    
-                    break;
-            }*/
-            
-            throw new NotImplementedException();
         }
+
+
+
+
     }
-
-
-
-
 }

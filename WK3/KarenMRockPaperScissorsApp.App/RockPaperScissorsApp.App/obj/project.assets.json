@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mkare_wyte20y\\Revature\\KarenM\\WK3\\RockPaperScissorsApp.App\\RockPaperScissorsApp.App\\RockPaperScissorsApp.App.csproj",
+      "projectUniqueName": "C:\\Users\\mkare_wyte20y\\Revature\\KarenM\\WK3\\KarenMRockPaperScissorsApp.App\\RockPaperScissorsApp.App\\RockPaperScissorsApp.App.csproj",
       "projectName": "RockPaperScissorsApp.App",
-      "projectPath": "C:\\Users\\mkare_wyte20y\\Revature\\KarenM\\WK3\\RockPaperScissorsApp.App\\RockPaperScissorsApp.App\\RockPaperScissorsApp.App.csproj",
+      "projectPath": "C:\\Users\\mkare_wyte20y\\Revature\\KarenM\\WK3\\KarenMRockPaperScissorsApp.App\\RockPaperScissorsApp.App\\RockPaperScissorsApp.App.csproj",
       "packagesPath": "C:\\Users\\mkare_wyte20y\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mkare_wyte20y\\Revature\\KarenM\\WK3\\RockPaperScissorsApp.App\\RockPaperScissorsApp.App\\obj\\",
+      "outputPath": "C:\\Users\\mkare_wyte20y\\Revature\\KarenM\\WK3\\KarenMRockPaperScissorsApp.App\\RockPaperScissorsApp.App\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mkare_wyte20y\\AppData\\Roaming\\NuGet\\NuGet.Config",
