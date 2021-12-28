@@ -24,15 +24,21 @@ app.MapGet("/", () => "Hello World!" + "goodbye"); //to check if program works
 app.Run(context =>
 {
     //Exercise option 2
+  
+
     string path = context.Request.Path;
     string fileName = $"Exercise2.txt";
-    string filePath = $"C:/Users/mkare_wyte20y/Revature/KarenM/WK5.5/.aspnetcoreExcersies/AspNetCoreExcersies/Excercise2.txt";
-
+    string filePath = System.IO.File.ReadAllText($"C:/Users/mkare_wyte20y/Revature/KarenM/WK5.5/.aspnetcoreExcersies/AspNetCoreExcersies/Excercise2.txt");
+    
     context.Response.StatusCode = 404;
     context.Response.Body.Write(Encoding.UTF8.GetBytes($"path was: {path}, data was {filePath}, filename: {fileName}"));
+
+    //Exercise option 1
+
     return Task.CompletedTask;
 });
 
+//not sure if its needed
 object FileInfo(string filePath, string fileName)
 {
     throw new NotImplementedException();
