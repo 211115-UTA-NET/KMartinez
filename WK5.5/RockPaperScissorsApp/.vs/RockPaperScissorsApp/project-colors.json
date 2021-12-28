@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
+    },
+    "bdc754b5-16f6-4d4a-bd04-f628d056d3b3": {
+      "ProjectGuid": "bdc754b5-16f6-4d4a-bd04-f628d056d3b3",
+      "DisplayName": "RockPaperScissorsApp.App",
+      "ColorIndex": 0
+    },
+    "128d5f27-5970-4ea0-80c2-c27eb5218052": {
+      "ProjectGuid": "128d5f27-5970-4ea0-80c2-c27eb5218052",
+      "DisplayName": "RockPaperScissorsApp.DataInfrastructure",
+      "ColorIndex": 1
+    },
+    "d62e768f-54a1-4fdf-bed9-22e77e1b8fa2": {
+      "ProjectGuid": "d62e768f-54a1-4fdf-bed9-22e77e1b8fa2",
+      "DisplayName": "RockPaperScissorsApp.Tests",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

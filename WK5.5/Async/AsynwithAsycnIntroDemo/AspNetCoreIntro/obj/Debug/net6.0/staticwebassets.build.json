@@ -1,0 +1,19 @@
+{
+  "Version": 1,
+  "Hash": "MSmLtj+qtCcEn23IOrGvf2Q99SDiC8/TanoIsbIiPuA=",
+  "Source": "AspNetCoreIntro",
+  "BasePath": "_content/AspNetCoreIntro",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "AspNetCoreIntro\\wwwroot",
+      "Source": "AspNetCoreIntro",
+      "ContentRoot": "C:\\Users\\mkare_wyte20y\\Revature\\KarenM\\WK5.5\\Async\\AsynwithAsycnIntroDemo\\AspNetCoreIntro\\wwwroot\\",
+      "BasePath": "_content/AspNetCoreIntro",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": []
+}

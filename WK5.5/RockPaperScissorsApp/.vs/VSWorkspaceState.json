@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\RockPaperScissorsApp.App",
+    "\\RockPaperScissorsApp.DataInfrastructure",
+    "\\RockPaperScissorsApp.Logic",
+    "\\RockPaperScissorsApp.Tests"
+  ],
+  "SelectedNode": "\\RockPaperScissorsApp.App\\Program.cs",
+  "PreviewInSolutionExplorer": false
+}

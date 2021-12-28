@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "3ab06852-3dfc-47ec-90e7-8ca5d082a93a": {
+      "ProjectGuid": "3ab06852-3dfc-47ec-90e7-8ca5d082a93a",
+      "DisplayName": "AspNetCoreIntro",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

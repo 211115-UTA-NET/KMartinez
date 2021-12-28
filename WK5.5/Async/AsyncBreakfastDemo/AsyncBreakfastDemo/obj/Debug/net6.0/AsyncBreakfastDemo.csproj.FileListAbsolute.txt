@@ -1,0 +1,15 @@
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\Async\AsyncBreakfastDemo\AsyncBreakfastDemo\obj\Debug\net6.0\AsyncBreakfastDemo.csproj.AssemblyReference.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\Async\AsyncBreakfastDemo\AsyncBreakfastDemo\obj\Debug\net6.0\AsyncBreakfastDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\Async\AsyncBreakfastDemo\AsyncBreakfastDemo\obj\Debug\net6.0\AsyncBreakfastDemo.AssemblyInfoInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\Async\AsyncBreakfastDemo\AsyncBreakfastDemo\obj\Debug\net6.0\AsyncBreakfastDemo.AssemblyInfo.cs
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\Async\AsyncBreakfastDemo\AsyncBreakfastDemo\obj\Debug\net6.0\AsyncBreakfastDemo.csproj.CoreCompileInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\Async\AsyncBreakfastDemo\AsyncBreakfastDemo\bin\Debug\net6.0\AsyncBreakfastDemo.exe
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\Async\AsyncBreakfastDemo\AsyncBreakfastDemo\bin\Debug\net6.0\AsyncBreakfastDemo.deps.json
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\Async\AsyncBreakfastDemo\AsyncBreakfastDemo\bin\Debug\net6.0\AsyncBreakfastDemo.runtimeconfig.json
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\Async\AsyncBreakfastDemo\AsyncBreakfastDemo\bin\Debug\net6.0\AsyncBreakfastDemo.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\Async\AsyncBreakfastDemo\AsyncBreakfastDemo\bin\Debug\net6.0\ref\AsyncBreakfastDemo.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\Async\AsyncBreakfastDemo\AsyncBreakfastDemo\bin\Debug\net6.0\AsyncBreakfastDemo.pdb
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\Async\AsyncBreakfastDemo\AsyncBreakfastDemo\obj\Debug\net6.0\AsyncBreakfastDemo.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\Async\AsyncBreakfastDemo\AsyncBreakfastDemo\obj\Debug\net6.0\ref\AsyncBreakfastDemo.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\Async\AsyncBreakfastDemo\AsyncBreakfastDemo\obj\Debug\net6.0\AsyncBreakfastDemo.pdb
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\Async\AsyncBreakfastDemo\AsyncBreakfastDemo\obj\Debug\net6.0\AsyncBreakfastDemo.genruntimeconfig.cache
