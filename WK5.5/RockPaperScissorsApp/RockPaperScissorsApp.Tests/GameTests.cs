@@ -6,7 +6,7 @@ using RockPaperScissorsApp.App;
 using RockPaperScissorsApp.DataInfrastructure;
 using RockPaperScissorsApp.Logic;
 using Xunit;
-//need to fix
+
 namespace RockPaperScissorsApp.Tests
 {
     public class GameTests
@@ -26,7 +26,7 @@ namespace RockPaperScissorsApp.Tests
             var game = new Game(playerName, mockDecider.Object, mockRepo.Object);
 
             // act
-            string result = game.Summary();
+            string result = await game.SummaryAsync();
 
             // assert
             var expected = "Date\t\t\tComputer\tasdf\t\tResult\r\n---------------------------------------------------------------\r\n---------------------------------------------------------------\r\n";
@@ -34,7 +34,7 @@ namespace RockPaperScissorsApp.Tests
         }
 
         [Fact]
-        public void Summary_TwoRounds_CorrectFormat()
+        public async Task Summary_TwoRounds_CorrectFormat()
         {
             // arrange
             string playerName = "asdf";
@@ -46,7 +46,7 @@ namespace RockPaperScissorsApp.Tests
             var game = new Game(playerName, mockDecider.Object, mockRepo.Object);
 
             // act
-            string result = game.Summary();
+            string result = await game.SummaryAsync();
 
             // assert
             var expected = "Date\t\t\tComputer\tasdf\t\tResult\r\n---------------------------------------------------------------\r\n1/1/1970 12:00:00 AM +00:00\tPaper\t\tPaper\t\tTie\r\n1/1/1970 12:00:00 AM +00:00\tPaper\t\tPaper\t\tTie\r\n---------------------------------------------------------------\r\n";

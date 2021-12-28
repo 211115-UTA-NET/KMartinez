@@ -1,5 +1,0 @@
-C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RockPaperScissorsApp\RockPaperScissorsApp.App\obj\Debug\net6.0\RockPaperScissorsApp.App.csproj.AssemblyReference.cache
-C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RockPaperScissorsApp\RockPaperScissorsApp.App\obj\Debug\net6.0\RockPaperScissorsApp.App.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RockPaperScissorsApp\RockPaperScissorsApp.App\obj\Debug\net6.0\RockPaperScissorsApp.App.AssemblyInfoInputs.cache
-C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RockPaperScissorsApp\RockPaperScissorsApp.App\obj\Debug\net6.0\RockPaperScissorsApp.App.AssemblyInfo.cs
-C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RockPaperScissorsApp\RockPaperScissorsApp.App\obj\Debug\net6.0\RockPaperScissorsApp.App.csproj.CoreCompileInputs.cache

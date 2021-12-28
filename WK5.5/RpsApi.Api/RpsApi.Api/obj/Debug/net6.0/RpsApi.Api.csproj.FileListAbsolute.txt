@@ -1,0 +1,7 @@
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RpsApi.Api\RpsApi.Api\obj\Debug\net6.0\RpsApi.Api.csproj.AssemblyReference.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RpsApi.Api\RpsApi.Api\obj\Debug\net6.0\RpsApi.Api.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RpsApi.Api\RpsApi.Api\obj\Debug\net6.0\RpsApi.Api.AssemblyInfoInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RpsApi.Api\RpsApi.Api\obj\Debug\net6.0\RpsApi.Api.AssemblyInfo.cs
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RpsApi.Api\RpsApi.Api\obj\Debug\net6.0\RpsApi.Api.csproj.CoreCompileInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RpsApi.Api\RpsApi.Api\obj\Debug\net6.0\RpsApi.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RpsApi.Api\RpsApi.Api\obj\Debug\net6.0\RpsApi.Api.MvcApplicationPartsAssemblyInfo.cache

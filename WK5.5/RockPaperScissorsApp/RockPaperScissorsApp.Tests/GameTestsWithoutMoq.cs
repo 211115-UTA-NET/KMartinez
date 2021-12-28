@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using RockPaperScissorsApp.App;
 using RockPaperScissorsApp.DataInfrastructure;
 using RockPaperScissorsApp.Logic;
 using Xunit;
-using System.Threading.Tasks;
-//need to fix
+
 namespace RockPaperScissorsApp.Tests
 {
     public class GameTestsWithoutMoq
@@ -14,7 +14,7 @@ namespace RockPaperScissorsApp.Tests
         //    and should DEFINITELY not involve a whole database, and ABOVE ALL should not involve the
         //    actual real database the app uses to run normally
         [Fact]
-        public void Summary_ZeroRounds_CorrectFormat()
+        public async Task Summary_ZeroRounds_CorrectFormat()
         {
             // arrange
             string playerName = "asdf";
@@ -22,7 +22,7 @@ namespace RockPaperScissorsApp.Tests
             var game = new Game(playerName, new FakeDecider(), fakeRepo);
 
             // act
-            string result = game.Summary();
+            string result = await game.SummaryAsync();
 
             // assert
             var expected = "Date\t\t\tComputer\tasdf\t\tResult\r\n---------------------------------------------------------------\r\n---------------------------------------------------------------\r\n";
@@ -40,7 +40,7 @@ namespace RockPaperScissorsApp.Tests
             var game = new Game(playerName, new FakeDecider(), fakeRepo);
 
             // act
-            string result = await game.Summary();
+            string result = await game.SummaryAsync();
 
             // assert
             var expected = "Date\t\t\tComputer\tasdf\t\tResult\r\n---------------------------------------------------------------\r\n1/1/1970 12:00:00 AM +00:00\tPaper\t\tPaper\t\tTie\r\n1/1/1970 12:00:00 AM +00:00\tPaper\t\tPaper\t\tTie\r\n---------------------------------------------------------------\r\n";
@@ -54,9 +54,10 @@ namespace RockPaperScissorsApp.Tests
     {
         public IEnumerable<Round> Rounds { get; set; } = Array.Empty<Round>();
 
-        //if you need to return a Task, but you dont have any async stuff to do,
-        //use eithrt Task.CompletedTask or returning non-generirc Task, or Task.FromResult(value)
-        public Task<IEnumerable<Round>> GetAllRoundsOfPlayerAsync(string name) => Taskl.FromResult(Rounds);
+        // if you need to return a Task, but you don't have any async stuff to do,
+        // use either Task.CompletedTask (for returning non-generic Task)
+        // or Task.FromResult(value) (for returning Task that contains a Result)
+        public Task<IEnumerable<Round>> GetAllRoundsOfPlayerAsync(string name) => Task.FromResult(Rounds);
 
         public void AddNewRound(string? player1, string? player2, Round round) => throw new NotImplementedException();
     }

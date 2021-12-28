@@ -12,13 +12,15 @@ namespace RockPaperScissorsApp.DataInfrastructure
             _connectionString = connectionString ?? throw new ArgumentNullException(nameof(connectionString));
         }
 
-        //chaning sync code to async
-        //1. fin the async version of whatever method you ar ecalling thats doing the work tha takes a long time 
-        //2.replace that method call, await the ruturned Task at the appropriate time(often immediatly)
-        //3. add the "async" modifier to the current method, wrap the return value type in a Task<>
-        //and (by conventionadd the "Async" sufffix to teh method name
-        //4.start from step one on all the method taht calle this method you just changed.
-
+        // changing sync code to async:
+        // 1. find the Async version of whatever method you're calling that's doing the work that takes a long time
+        //       (if there isn't one, you need to either give up or rewrite the code somehow)
+        //       (if there's more than one just thing in the method, don't forget to make those calls async too)
+        // 2. replace that method call, & await the returned Task at an appropriate time (often immediately)
+        // 3. add the "async" modifier to the current method, wrap the return type in a Task<>, and
+        //       (by convention) add the "Async" suffix to the method name
+        //       (if the original return type was void, new return type should be Task, not Task<>)
+        // 4. start from step 1 on all the method that called this method you just changed
 
         public async Task<IEnumerable<Round>> GetAllRoundsOfPlayerAsync(string name)
         {
@@ -42,11 +44,11 @@ namespace RockPaperScissorsApp.DataInfrastructure
 
             using SqlDataReader reader = cmd.ExecuteReader();
 
-            //reader.Read() was a bool 
-            //reader.ReadAsync() will be a Task<bool>
-            //await reader.ReadAsycn() will be a bool
+            // reader.Read() was a bool, so
+            // reader.ReadAsync() will be a Task<bool>, and
+            // await reader.ReadAsync() will be a bool.
 
-            while (await reader.ReadAsync()) 
+            while (await reader.ReadAsync())
             {
                 DateTimeOffset timestamp = reader.GetDateTimeOffset(0);
                 var move1 = (Move)Enum.Parse(typeof(Move), reader.GetString(3));
@@ -54,7 +56,7 @@ namespace RockPaperScissorsApp.DataInfrastructure
                 result.Add(new(timestamp, move1, move2));
             }
 
-            connection.Close();
+            await connection.CloseAsync();
 
             return result;
         }
