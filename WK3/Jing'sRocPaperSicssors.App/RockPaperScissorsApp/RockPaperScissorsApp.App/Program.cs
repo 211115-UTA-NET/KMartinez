@@ -94,21 +94,22 @@ namespace RockPaperScissorsApp.APP
         //    }
         //}
 
-        New shorter way
+        //New shorter way
         private static List<Record>? ReadHistoryFromFile(string filePath)
         {
             XmlSerializer serializer = new XmlSerializer(typeof(List<Record>));
-            using StreamReader? reader = new(filePath);
-            try
+            using (StreamReader? reader = new(filePath))
             {
-                var records = new(filePath);
-                List<Record>? records = (List<Record>?)serializer.Deserialize(reader);
-
-                return records;
-            }
-            catch (FileNotFoundException)
-            {
-                return null;
+                try
+                {
+                    var records = (List<Record>?)serializer.Deserialize(reader);
+                   
+                    return records;
+                }
+                catch (FileNotFoundException)
+                {
+                    return null;
+                }
             }
         }
 

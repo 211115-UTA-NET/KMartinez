@@ -1,0 +1,15 @@
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RpsAPI.DataStorage\obj\Debug\net6.0\RpsAPI.DataStorage.csproj.AssemblyReference.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RpsAPI.DataStorage\obj\Debug\net6.0\RpsAPI.DataStorage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RpsAPI.DataStorage\obj\Debug\net6.0\RpsAPI.DataStorage.AssemblyInfoInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RpsAPI.DataStorage\obj\Debug\net6.0\RpsAPI.DataStorage.AssemblyInfo.cs
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RpsAPI.DataStorage\obj\Debug\net6.0\RpsAPI.DataStorage.csproj.CoreCompileInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RpsAPI.DataStorage\bin\Debug\net6.0\RpsAPI.DataStorage.deps.json
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RpsAPI.DataStorage\bin\Debug\net6.0\RpsAPI.DataStorage.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RpsAPI.DataStorage\bin\Debug\net6.0\ref\RpsAPI.DataStorage.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RpsAPI.DataStorage\bin\Debug\net6.0\RpsAPI.DataStorage.pdb
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RpsAPI.DataStorage\bin\Debug\net6.0\RspApi.Logic.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RpsAPI.DataStorage\bin\Debug\net6.0\RspApi.Logic.pdb
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RpsAPI.DataStorage\obj\Debug\net6.0\RpsAPI.DataStorage.csproj.CopyComplete
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RpsAPI.DataStorage\obj\Debug\net6.0\RpsAPI.DataStorage.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RpsAPI.DataStorage\obj\Debug\net6.0\ref\RpsAPI.DataStorage.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RpsAPI.DataStorage\obj\Debug\net6.0\RpsAPI.DataStorage.pdb

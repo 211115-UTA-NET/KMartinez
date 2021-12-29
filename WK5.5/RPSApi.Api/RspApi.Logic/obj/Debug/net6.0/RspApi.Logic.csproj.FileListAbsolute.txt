@@ -1,0 +1,11 @@
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RspApi.Logic\bin\Debug\net6.0\RspApi.Logic.deps.json
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RspApi.Logic\bin\Debug\net6.0\RspApi.Logic.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RspApi.Logic\bin\Debug\net6.0\ref\RspApi.Logic.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RspApi.Logic\bin\Debug\net6.0\RspApi.Logic.pdb
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RspApi.Logic\obj\Debug\net6.0\RspApi.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RspApi.Logic\obj\Debug\net6.0\RspApi.Logic.AssemblyInfoInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RspApi.Logic\obj\Debug\net6.0\RspApi.Logic.AssemblyInfo.cs
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RspApi.Logic\obj\Debug\net6.0\RspApi.Logic.csproj.CoreCompileInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RspApi.Logic\obj\Debug\net6.0\RspApi.Logic.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RspApi.Logic\obj\Debug\net6.0\ref\RspApi.Logic.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK5.5\RPSApi.Api\RspApi.Logic\obj\Debug\net6.0\RspApi.Logic.pdb

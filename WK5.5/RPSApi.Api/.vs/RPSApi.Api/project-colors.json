@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "0361b5cd-3cdb-4ce6-903d-2a3989282186": {
+      "ProjectGuid": "0361b5cd-3cdb-4ce6-903d-2a3989282186",
+      "DisplayName": "RPSApi.Api",
+      "ColorIndex": 0
+    },
+    "3a60ac55-9606-4fe9-99f2-e2991be2a66c": {
+      "ProjectGuid": "3a60ac55-9606-4fe9-99f2-e2991be2a66c",
+      "DisplayName": "RpsAPI.DataStorage",
+      "ColorIndex": 1
+    },
+    "f6abb7be-78d4-4966-8ec6-0b008ec21977": {
+      "ProjectGuid": "f6abb7be-78d4-4966-8ec6-0b008ec21977",
+      "DisplayName": "RspApi.Logic",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

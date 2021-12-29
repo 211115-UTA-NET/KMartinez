@@ -12,4 +12,3 @@ C:\Users\mkare_wyte20y\Revature\KarenM\WK3\Jing'sRocPaperSicssors.App\RockPaperS
 C:\Users\mkare_wyte20y\Revature\KarenM\WK3\Jing'sRocPaperSicssors.App\RockPaperScissorsApp\RockPaperScissorsApp.App\obj\Debug\net6.0\ref\RockPaperScissorsApp.App.dll
 C:\Users\mkare_wyte20y\Revature\KarenM\WK3\Jing'sRocPaperSicssors.App\RockPaperScissorsApp\RockPaperScissorsApp.App\obj\Debug\net6.0\RockPaperScissorsApp.App.pdb
 C:\Users\mkare_wyte20y\Revature\KarenM\WK3\Jing'sRocPaperSicssors.App\RockPaperScissorsApp\RockPaperScissorsApp.App\obj\Debug\net6.0\RockPaperScissorsApp.App.genruntimeconfig.cache
-C:\Users\mkare_wyte20y\Revature\KarenM\WK3\Jing'sRocPaperSicssors.App\RockPaperScissorsApp\RockPaperScissorsApp.App\obj\Debug\net6.0\RockPaperScissorsApp.App.csproj.AssemblyReference.cache

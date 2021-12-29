@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "398d0fa9-d738-4f54-9e14-abc51ed36e0e": {
+      "ProjectGuid": "398d0fa9-d738-4f54-9e14-abc51ed36e0e",
+      "DisplayName": "RPSConsoleApp.UI",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
