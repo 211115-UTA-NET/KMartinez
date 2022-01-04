@@ -17,11 +17,13 @@
  *   but in a way that allows for extending it/generalizing it in the future.
  */
 
-namespace RockPaperScissorsApp.App
+using System.Text.Json;
+
+namespace RPSConsoleApp.UI
 {
     public class Program
     {
-
+        public static readonly HttpClient HttpClient = new();
         public async static Task Main(string[] args)
         {
             Console.WriteLine("Welcome to RockPaperScissors App");
@@ -32,6 +34,13 @@ namespace RockPaperScissorsApp.App
                 name = Console.ReadLine();
             }
 
+            //HttpResponseMessage response = await HttpClient.GetAsync($"https://localhost:7046/api/rounds?player={name}");
+            var rounds = await HttpClient.GetFromJsonAsync<List<Round>>($"https://localhost:7046/api/rounds?player={name}");
+
+
+            //response.Content.Headers.ContentType == "application/json";
+            string json = response.Content.ReadAsStringAsync();
+            var rounds = JsonSerializer.Deserialize<List<Round>>(json)
             //string connectionString = await File.ReadAllTextAsync("C:/revature/richard-rps-db.txt");
             //IRepository repository = new SqlRepository(connectionString);
 

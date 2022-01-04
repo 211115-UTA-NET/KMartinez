@@ -2,8 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\AspNetCoreIntro",
-    "\\AspNetCoreIntro\\AspNetCoreIntro"
+    "\\AspNetCoreIntro\\AspNetCoreIntro",
+    "\\RPSApi.Api",
+    "\\RPSConsoleApp",
+    "\\RPSConsoleApp\\RPSConsoleApp.UI"
   ],
-  "SelectedNode": "\\AspNetCoreIntro\\AspNetCoreIntro\\Program.cs",
+  "SelectedNode": "\\RPSConsoleApp\\RPSConsoleApp.UI\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

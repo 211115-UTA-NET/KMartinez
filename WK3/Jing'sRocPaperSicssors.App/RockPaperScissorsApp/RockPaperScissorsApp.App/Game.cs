@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Xml.Serialization;
 
 
+
 namespace RockPaperScissorsApp.APP
 {
     public class Game
@@ -53,56 +54,74 @@ namespace RockPaperScissorsApp.APP
                 // Rock !< Scissor
                 if (PCchoice == 1 && player == 3)
                 {
-                    var record = new Record(DateTime.Now, RPS[PCchoice - 1], RPS[player - 1], "Lose");
-                    allRecords.Add(record);
-                    Console.WriteLine("You Lose!");
+                    AddRecord(PCchoice, player, "Lose");
+                    //var record = new Record(DateTime.Now, RPS[PCchoice - 1], RPS[player - 1], "Lose");
+                    //allRecords.Add(record);
+                    //Console.WriteLine("You Lose!");
                 }
                 else if (PCchoice < player)
                 {
-                    var record = new Record(DateTime.Now, RPS[PCchoice - 1], RPS[player - 1], "Win");
-                    allRecords.Add(record);
-                    Console.WriteLine("You Win!");
+                    AddRecord(PCchoice, player, "Win");
+                    //var record = new Record(DateTime.Now, RPS[PCchoice - 1], RPS[player - 1], "Win");
+                    //allRecords.Add(record);
+                    //Console.WriteLine("You Win!");
                 }
                 else if (PCchoice > player)
                 {
-                    var record = new Record(DateTime.Now, RPS[PCchoice - 1], RPS[player - 1], "Lose");
-                    allRecords.Add(record);
-                    Console.WriteLine("You Lose!");
+                    AddRecord(PCchoice, player, "Lose");
+                    //var record = new Record(DateTime.Now, RPS[PCchoice - 1], RPS[player - 1], "Lose");
+                    //allRecords.Add(record);
+                    //Console.WriteLine("You Lose!");
                 }
                 else
                 {
-                    var record = new Record(DateTime.Now, RPS[PCchoice - 1], RPS[player - 1], "A Tie");
-                    allRecords.Add(record);
-                    Console.WriteLine("A Tie!");
+                    AddRecord(PCchoice, player, "Tie");
+                    //var record = new Record(DateTime.Now, RPS[PCchoice - 1], RPS[player - 1], "A Tie");
+                    //allRecords.Add(record);
+                    //Console.WriteLine("A Tie!");
                 }
             }
         }
 
-        public void Summary()
+        private void AddRecord(int pc, int player, string result)
         {
-            var summary = new System.Text.StringBuilder();
-            summary.AppendLine($"Date\t\t\tComputer\t{PlayerName}\t\tResult");
-            summary.AppendLine("---------------------------------------------------------------");
-            foreach (var record in allRecords)
+            var record = new Record(DateTime.Now, RPS[pc - 1], RPS[player - 1], result);
+            allRecords.Add(record);
+            if (result == "A Tie")
             {
-                summary.AppendLine($"{record.Date}\t{record.PC}\t\t{record.Player}\t\t{record.result}");
+                Console.WriteLine($"You have {result}!");
             }
-            summary.AppendLine("---------------------------------------------------------------");
-
-            Console.WriteLine(summary.ToString());
+            else
+                Console.WriteLine($"You {result}!");
         }
+    }
 
-        public string SerializedAsXml()
+    public void Summary()
+    {
+        var summary = new System.Text.StringBuilder();
+        summary.AppendLine($"Date\t\t\tComputer\t{PlayerName}\t\tResult");
+        summary.AppendLine("---------------------------------------------------------------");
+        foreach (var record in allRecords)
         {
-            //todo
-            XmlSerializer serializer = new(typeof(List<Record>));
-            
-            var stringWriter = new StringWriter();
-            Serializer.Serialize(stringWriter, allRecords);
-            stringWriter.Close();
-            return stringWriter.ToString();
-            
+            summary.AppendLine($"{record.Date}\t{record.PC}\t\t{record.Player}\t\t{record.result}");
         }
+        summary.AppendLine("---------------------------------------------------------------");
+
+        Console.WriteLine(summary.ToString());
+    }
+
+
+
+    public string SerializedAsXml()
+    {
+        //todo
+        XmlSerializer serializer = new(typeof(List<Record>));
+
+        var stringWriter = new StringWriter();
+        serializer.Serialize(stringWriter, allRecords);
+        stringWriter.Close();
+        return stringWriter.ToString();
 
     }
+
 }

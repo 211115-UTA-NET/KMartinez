@@ -15,7 +15,12 @@
       "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
       "DisplayName": "Miscellaneous Files",
       "ColorIndex": -1
+    },
+    "20e7b683-23d0-4b9c-be15-3cc6d0f4c493": {
+      "ProjectGuid": "20e7b683-23d0-4b9c-be15-3cc6d0f4c493",
+      "DisplayName": "RockPaperScissorsApp.Logic",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }

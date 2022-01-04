@@ -2,7 +2,7 @@
 using RockPaperScissorsApp.DataInfrastructure;
 using RockPaperScissorsApp.Logic;
 
-namespace RockPaperScissorsApp.App
+namespace RPSConsoleApp.UI
 {
     public class Game
     {
@@ -57,7 +57,21 @@ namespace RockPaperScissorsApp.App
             Console.WriteLine($"You have a {record.Result}!");
         }
 
-        public async Task<string> SummaryAsync()
+        //public async Task<string> SummaryAsync()
+        //{
+        //    IEnumerable<Round> allRecords = await _repository.GetAllRoundsOfPlayerAsync(PlayerName);
+        //    var summary = new StringBuilder();
+        //    summary.AppendLine($"Date\t\t\tComputer\t{PlayerName}\t\tResult");
+        //    summary.AppendLine("---------------------------------------------------------------");
+        //    foreach (var record in allRecords)
+        //    {
+        //        summary.AppendLine($"{record.Date}\t{record.Player1}\t\t{record.Player2}\t\t{record.Result}");
+        //    }
+        //    summary.AppendLine("---------------------------------------------------------------");
+
+        //    return summary.ToString();
+        //}
+        public async Task<string> Summary()
         {
             IEnumerable<Round> allRecords = await _repository.GetAllRoundsOfPlayerAsync(PlayerName);
             var summary = new StringBuilder();
