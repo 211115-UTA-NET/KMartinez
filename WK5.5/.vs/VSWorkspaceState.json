@@ -1,12 +1,8 @@
 {
   "ExpandedNodes": [
     "",
-    "\\AspNetCoreIntro",
     "\\AspNetCoreIntro\\AspNetCoreIntro",
-    "\\RPSApi.Api",
-    "\\RPSConsoleApp",
     "\\RPSConsoleApp\\RPSConsoleApp.UI"
   ],
-  "SelectedNode": "\\RPSConsoleApp\\RPSConsoleApp.UI\\Program.cs",
   "PreviewInSolutionExplorer": false
 }

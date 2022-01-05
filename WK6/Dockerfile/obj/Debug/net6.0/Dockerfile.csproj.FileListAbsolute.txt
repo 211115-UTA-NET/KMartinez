@@ -1,0 +1,15 @@
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\Dockerfile\bin\Debug\net6.0\Dockerfile.exe
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\Dockerfile\bin\Debug\net6.0\Dockerfile.deps.json
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\Dockerfile\bin\Debug\net6.0\Dockerfile.runtimeconfig.json
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\Dockerfile\bin\Debug\net6.0\Dockerfile.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\Dockerfile\bin\Debug\net6.0\ref\Dockerfile.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\Dockerfile\bin\Debug\net6.0\Dockerfile.pdb
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\Dockerfile\obj\Debug\net6.0\Dockerfile.csproj.AssemblyReference.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\Dockerfile\obj\Debug\net6.0\Dockerfile.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\Dockerfile\obj\Debug\net6.0\Dockerfile.AssemblyInfoInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\Dockerfile\obj\Debug\net6.0\Dockerfile.AssemblyInfo.cs
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\Dockerfile\obj\Debug\net6.0\Dockerfile.csproj.CoreCompileInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\Dockerfile\obj\Debug\net6.0\Dockerfile.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\Dockerfile\obj\Debug\net6.0\ref\Dockerfile.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\Dockerfile\obj\Debug\net6.0\Dockerfile.pdb
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\Dockerfile\obj\Debug\net6.0\Dockerfile.genruntimeconfig.cache

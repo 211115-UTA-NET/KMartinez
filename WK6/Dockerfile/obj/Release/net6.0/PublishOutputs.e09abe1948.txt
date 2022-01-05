@@ -1,0 +1,5 @@
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\Dockerfile\bin\Release\net6.0\publish\DockerfileExample.exe
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\Dockerfile\bin\Release\net6.0\publish\DockerfileExample.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\Dockerfile\bin\Release\net6.0\publish\DockerfileExample.deps.json
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\Dockerfile\bin\Release\net6.0\publish\DockerfileExample.runtimeconfig.json
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\Dockerfile\bin\Release\net6.0\publish\DockerfileExample.pdb
