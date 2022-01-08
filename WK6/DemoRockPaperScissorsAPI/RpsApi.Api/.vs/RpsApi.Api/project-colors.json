@@ -1,0 +1,21 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "805efbc1-33db-4fe5-a3f9-6a87265d2d8d": {
+      "ProjectGuid": "805efbc1-33db-4fe5-a3f9-6a87265d2d8d",
+      "DisplayName": "RpsApi.Api",
+      "ColorIndex": 0
+    },
+    "f0378c5d-e833-4403-85fb-021f60d0ff91": {
+      "ProjectGuid": "f0378c5d-e833-4403-85fb-021f60d0ff91",
+      "DisplayName": "RpsApi.Logic",
+      "ColorIndex": 1
+    },
+    "95123b75-e71f-4a0c-96e9-f414d934613c": {
+      "ProjectGuid": "95123b75-e71f-4a0c-96e9-f414d934613c",
+      "DisplayName": "RpsApi.DataStorage",
+      "ColorIndex": 2
+    }
+  },
+  "NextColorIndex": 3
+}

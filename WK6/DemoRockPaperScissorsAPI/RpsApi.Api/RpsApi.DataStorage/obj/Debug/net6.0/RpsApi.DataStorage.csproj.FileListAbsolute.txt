@@ -1,0 +1,15 @@
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.DataStorage\bin\Debug\net6.0\RpsApi.DataStorage.deps.json
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.DataStorage\bin\Debug\net6.0\RpsApi.DataStorage.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.DataStorage\bin\Debug\net6.0\ref\RpsApi.DataStorage.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.DataStorage\bin\Debug\net6.0\RpsApi.DataStorage.pdb
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.DataStorage\bin\Debug\net6.0\RpsApi.Logic.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.DataStorage\bin\Debug\net6.0\RpsApi.Logic.pdb
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.DataStorage\obj\Debug\net6.0\RpsApi.DataStorage.csproj.AssemblyReference.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.DataStorage\obj\Debug\net6.0\RpsApi.DataStorage.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.DataStorage\obj\Debug\net6.0\RpsApi.DataStorage.AssemblyInfoInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.DataStorage\obj\Debug\net6.0\RpsApi.DataStorage.AssemblyInfo.cs
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.DataStorage\obj\Debug\net6.0\RpsApi.DataStorage.csproj.CoreCompileInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.DataStorage\obj\Debug\net6.0\RpsApi.DataStorage.csproj.CopyComplete
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.DataStorage\obj\Debug\net6.0\RpsApi.DataStorage.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.DataStorage\obj\Debug\net6.0\ref\RpsApi.DataStorage.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.DataStorage\obj\Debug\net6.0\RpsApi.DataStorage.pdb

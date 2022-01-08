@@ -1,0 +1,12 @@
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.Logic\bin\Debug\net6.0\RpsApi.Logic.deps.json
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.Logic\bin\Debug\net6.0\RpsApi.Logic.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.Logic\bin\Debug\net6.0\ref\RpsApi.Logic.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.Logic\bin\Debug\net6.0\RpsApi.Logic.pdb
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.Logic\obj\Debug\net6.0\RpsApi.Logic.csproj.AssemblyReference.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.Logic\obj\Debug\net6.0\RpsApi.Logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.Logic\obj\Debug\net6.0\RpsApi.Logic.AssemblyInfoInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.Logic\obj\Debug\net6.0\RpsApi.Logic.AssemblyInfo.cs
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.Logic\obj\Debug\net6.0\RpsApi.Logic.csproj.CoreCompileInputs.cache
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.Logic\obj\Debug\net6.0\RpsApi.Logic.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.Logic\obj\Debug\net6.0\ref\RpsApi.Logic.dll
+C:\Users\mkare_wyte20y\Revature\KarenM\WK6\DemoRockPaperScissorsAPI\RpsApi.Api\RpsApi.Logic\obj\Debug\net6.0\RpsApi.Logic.pdb

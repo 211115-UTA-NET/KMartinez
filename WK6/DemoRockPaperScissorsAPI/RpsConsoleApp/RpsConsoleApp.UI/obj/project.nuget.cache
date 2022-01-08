@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "ybudJiPUMsOkWgxc4cy6MU4R3W1vKDHz5BLFT5myqRRW8OsP+PR2G173+/Ie1iUNNnPc0GBZMtsCqSUIp9yCOQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mkare_wyte20y\\Revature\\KarenM\\WK6\\DemoRockPaperScissorsAPI\\RpsConsoleApp\\RpsConsoleApp.UI\\RpsConsoleApp.UI.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mkare_wyte20y\\.nuget\\packages\\microsoft.aspnetcore.webutilities\\2.2.0\\microsoft.aspnetcore.webutilities.2.2.0.nupkg.sha512",
+    "C:\\Users\\mkare_wyte20y\\.nuget\\packages\\microsoft.extensions.primitives\\2.2.0\\microsoft.extensions.primitives.2.2.0.nupkg.sha512",
+    "C:\\Users\\mkare_wyte20y\\.nuget\\packages\\microsoft.net.http.headers\\2.2.0\\microsoft.net.http.headers.2.2.0.nupkg.sha512",
+    "C:\\Users\\mkare_wyte20y\\.nuget\\packages\\system.buffers\\4.5.0\\system.buffers.4.5.0.nupkg.sha512",
+    "C:\\Users\\mkare_wyte20y\\.nuget\\packages\\system.memory\\4.5.1\\system.memory.4.5.1.nupkg.sha512",
+    "C:\\Users\\mkare_wyte20y\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.1\\system.runtime.compilerservices.unsafe.4.5.1.nupkg.sha512",
+    "C:\\Users\\mkare_wyte20y\\.nuget\\packages\\system.text.encodings.web\\4.5.0\\system.text.encodings.web.4.5.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "590d993c-e29f-4383-ac01-4e24e01e3e8a": {
+      "ProjectGuid": "590d993c-e29f-4383-ac01-4e24e01e3e8a",
+      "DisplayName": "RpsConsoleApp.UI",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}
