@@ -1,0 +1,17 @@
+# comment with "#"
+#Use .gitignore to NOT add system-specifi files (the file tha are created by YOUR system/computer
+#when you write your program.)
+
+#Try to group the things you will ignore by type, or relevent program
+
+
+
+#Filetypes
+*.log
+*.docx
+*.lock
+#use the "*" character as a wildcared, meaning "Anything tht could go here"
+
+
+# .vscode
+.vscode/*
