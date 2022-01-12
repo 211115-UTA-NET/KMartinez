@@ -1,0 +1,27 @@
+table
+{
+    border: 2px double rgb(175, 3, 3)
+}
+th
+{
+    border: 3px dashed red
+
+}
+td 
+{
+    border: 1px solid black;
+}
+
+img
+{
+    border-style: dashed;
+    border-width: 5px;
+    border-color: blue;
+
+    border: 10px solid green;
+}
+.center
+{
+    color:green;
+    font-size: 12pt;
+}
